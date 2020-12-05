@@ -1,7 +1,7 @@
 ---
 title: "Modular Decomposition of Cell Identity - Summary"
 author: "Aleks Dakic"
-date: "2020-12-05"
+date: "2020-12-06"
 output:
   prettydoc::html_pretty:
     theme: cayman
@@ -55,7 +55,7 @@ $$ J(s) ≈ [E(G(s))-E(G(z))]^2 $$
 Here $H$ denotes entropy, $G$ is a contrast function – in our case $logcosh()$, and $z$ is a standard normal variable (normal variable with same mean and variance as independent components s – which, in ICA, are centred at zero and normalised to unit variance). The basis for using entropy as a measure non-Gaussianity is a fundamental result of information theory that a Gaussian variable has the largest entropy among all random variables of equal variance. Maximising the above cost function therefore leads to finding independent components with minimum entropy, or maximum concentration on certain value – in ICA, components have a sharp spike at zero, which gives them natural sparsity.
   
 
-<img src="figures/workflow_diagram.png" width="100%" />
+<img src="figs/workflow_diagram.png" width="100%" />
 **Figure 1. A schematic overview of our workflow:** how gene weights in **$s_k$** components are used to extract modules of co-expressed genes that represent maximally independent patterns in data, and how cell weights in **$a_k^T$** components are used to find most critical combination of such modules that explain various cell identities.  
   
   
@@ -66,18 +66,19 @@ Unlike PCA, ICA solves local optimisation problem, so it is desirable to asses s
   
 The independent components from 100 replications of ICA for each number of components parameter value are clustered based on their spearman distances using partitioning around medoids (PAM) method, and consensus independent components extracted as cluster medoids. To determine optimal number of components parameter value, we focus simultaneously on maximising the stability of consensus components, as assessed by clustering silhouette widths, and minimising normalised reconstitution error. 
   
-<img src="figures/StabilityVsError_copy.png" width="50%" style="display: block; margin: auto;" />
+<img src="figs/StabilityVsError_copy.png" width="50%" style="display: block; margin: auto;" />
 **Figure 2.A Relationship between average stability of consensus components and normalised reconstitution error of ICA decomposition.** The left-hand y axis (blue) shows consensus component stability (reproducibility) across 100 ICA runs, measured by the mean silhouette width from the PAM clustering. The right-hand axis (red) shows the normalised reconstitution error of consensus ICA decomposition (solid red line) and that of “non-consensus” ICA initiated with diagonal rotation matrix, instead of random matrix (dotted red line). Normalised reconstitution error of the consensus ICA decomposition is calculated as
 $$ \frac{||X-SA||_2^2}{||X||_2^2} $$
   
-<img src="figures/ScreeVsStability_c_copy.png" width="40%" style="display: block; margin: auto;" />
+<img src="figs/ScreeVsStability_c_copy.png" width="40%" style="display: block; margin: auto;" />
 **Figure 2.B Stability of individual consensus components and variance accounted for (VAF) by individual components.** The right-hand y axis (blue) shows stability (reproducibility) of individual consensus components across 100 ICA runs, measured by the cluster silhouette width from the PAM clusteriung. The left-hand axis (pink and black) compares VAFs of individual components, based on ICA initiated with diagonal rotation matrix (black bars), and VAFs of individual components, when ICA is run on 10 permuted data matrices and also initiated with diagonal rotation matrix (pink line). Values of silhouette scores (blue) and VAFs (black/pink) are ordered independently in descending order. VAFs are simply a squared and normalised Euclidean norms of component vectors in matrix A (Figure 1.).  
   
 The analysis indicates that 100 components offers the best compromise between the two (**Figure 2.A, B**). Figure 2.A also shows that, not surprisingly, the reconstitution error of a non-consensus solution (diagonal) decreases linearly with the increase in dimensionality of latent space (broken red line), but the stability of the consensus solution is sharply decreasing. **Figure 2.B** shows cluster-specific silhouette width scores behind this decline, and compares scree-like plots for real and permuted data. 
   
 After choosing 100 ICA components to focus on in downstream analyses, we tested if any of the components or individual genes are primarily driven by experimental factors. If any genes or components are strongly associated with such factors they could be removed, so they do not confound biological questions such as cell identity. 
   
-<img src="figures/varByFact_genes_copy.png" width="40%" style="display: block; margin: auto;" /><img src="figures/varByFact_components_copy.png" width="40%" style="display: block; margin: auto;" />
+<img src="figs/varByFact_genes_copy.png" width="40%" style="display: block; margin: auto;" /><img src="figs/varByFact_components_copy.png" width="40%" style="display: block; margin: auto;" />
+  
 **Figure 3. Proportion of variance in gene expression (first row) and in ICA components scores (second row) explained by the experimental factors or by the cell type annotations.** Variance explained is calculated and plotted as R^2^ from regressing each gene expression or each ICA component score against experimental factors. Plots show the distribution of R^2^ for each factor across all genes or all components scores.
   
 **Figure 3.** shows that generally higher proportions of individual genes than ICA components are associated with technical factors to some extent. This indicates that genes associated with technical factors are sequestered in few ICA components. Of note, some factors such as plate and mouse id are expected to be inseparable from biology (cell type annotation) by the experimental design, as cell pre-selections from individual organs were sorted onto plates and individual mice did not contribute to all cell types. We chose not to remove any components from the downstream analyses because some factors such as total counts and total number of genes detected per cell could also be driven by characteristics of cell types. We just note that the component 73 had close to 30% of variance explained by sex, and components 2,6,7,8,14,17,18,20,21,47,70,71 have between 20 and 35% of variance explained by total number of genes detected per cell.  
@@ -89,24 +90,24 @@ After choosing 100 ICA components to focus on in downstream analyses, we tested 
 Cell scores in ICA-derived low-dimensional latent space reflect how strongly is a particular independent component (representing a module of co-expressed genes) activated in a particular cell. **Figure 4.** show average cell scores (average component activity levels) for all cell types in TM data. We see that some components have very strong and specific activation in exactly one cell type or very few highly related cell types. Such components are clearly aligned with a particular cell identity. 
   
 
-<img src="figures/A_heatmaps/all.celltypes.clust_copy.png" width="100%" />
+<img src="figs/A_heatmaps/all.celltypes.clust_copy.png" width="100%" />
 **Figure 4. Heatmap of ICA-derived cell scores (module activities) averaged per cell types.**  
   
 For a more granular way to visualise activities of components across individual cells, we can use two-dimensional UMAP space. Figures below first display clustering of cell types and tissues of origins in the UMAP space, followed by visualisation of activities of selected components (modules).
   
-<img src="figures/umaps/allcellstissues_umap_ica.png" width="100%" />
+<img src="figs/umaps/allcellstissues_umap_ica.png" width="100%" />
 **Figure 5. UMAP visualisation of all cells, coloured by cell type (left) and tissues of origin (right).**  
   
   
-<img src="figures/umaps/comp9_umap_ica.png" width="33%" /><img src="figures/umaps/comp67_umap_ica.png" width="33%" /><img src="figures/umaps/comp89_umap_ica.png" width="33%" /><img src="figures/umaps/comp82_umap_ica.png" width="33%" /><img src="figures/umaps/comp66_umap_ica.png" width="33%" /><img src="figures/umaps/comp69_umap_ica.png" width="33%" />
+<img src="figs/umaps/comp9_umap_ica.png" width="33%" /><img src="figs/umaps/comp67_umap_ica.png" width="33%" /><img src="figs/umaps/comp89_umap_ica.png" width="33%" /><img src="figs/umaps/comp82_umap_ica.png" width="33%" /><img src="figs/umaps/comp66_umap_ica.png" width="33%" /><img src="figs/umaps/comp69_umap_ica.png" width="33%" />
 **Figure 6. UMAP visualisation of all cells, coloured by the level of activity of selected components (modules)** - focusing on modules particularly active across *endothelial cell types*.  
   
   
-<img src="figures/umaps/comp12_umap_ica.png" width="33%" /><img src="figures/umaps/comp24_umap_ica.png" width="33%" /><img src="figures/umaps/comp33_umap_ica.png" width="33%" /><img src="figures/umaps/comp22_umap_ica.png" width="33%" /><img src="figures/umaps/comp32_umap_ica.png" width="33%" /><img src="figures/umaps/comp27_umap_ica.png" width="33%" /><img src="figures/umaps/comp36_umap_ica.png" width="33%" /><img src="figures/umaps/comp47_umap_ica.png" width="33%" /><img src="figures/umaps/comp44_umap_ica.png" width="33%" />
+<img src="figs/umaps/comp12_umap_ica.png" width="33%" /><img src="figs/umaps/comp24_umap_ica.png" width="33%" /><img src="figs/umaps/comp33_umap_ica.png" width="33%" /><img src="figs/umaps/comp22_umap_ica.png" width="33%" /><img src="figs/umaps/comp32_umap_ica.png" width="33%" /><img src="figs/umaps/comp27_umap_ica.png" width="33%" /><img src="figs/umaps/comp36_umap_ica.png" width="33%" /><img src="figs/umaps/comp47_umap_ica.png" width="33%" /><img src="figs/umaps/comp44_umap_ica.png" width="33%" />
 **Figure 7. UMAP visualisation of all cells, coloured by the level of activity of selected components (modules)** - focusing on several modules that display strong cell type specificity.  
   
   
-<img src="figures/umaps/comp40_umap_ica.png" width="33%" /><img src="figures/umaps/comp52_umap_ica.png" width="33%" /><img src="figures/umaps/comp63_umap_ica.png" width="33%" /><img src="figures/umaps/comp6_umap_ica.png" width="33%" /><img src="figures/umaps/comp29_umap_ica.png" width="33%" /><img src="figures/umaps/comp30_umap_ica.png" width="33%" /><img src="figures/umaps/comp15_umap_ica.png" width="33%" /><img src="figures/umaps/comp23_umap_ica.png" width="33%" /><img src="figures/umaps/comp35_umap_ica.png" width="33%" />
+<img src="figs/umaps/comp40_umap_ica.png" width="33%" /><img src="figs/umaps/comp52_umap_ica.png" width="33%" /><img src="figs/umaps/comp63_umap_ica.png" width="33%" /><img src="figs/umaps/comp6_umap_ica.png" width="33%" /><img src="figs/umaps/comp29_umap_ica.png" width="33%" /><img src="figs/umaps/comp30_umap_ica.png" width="33%" /><img src="figs/umaps/comp15_umap_ica.png" width="33%" /><img src="figs/umaps/comp23_umap_ica.png" width="33%" /><img src="figs/umaps/comp35_umap_ica.png" width="33%" />
 **Figure 8. UMAP visualisation of all cells, coloured by the level of activity of selected components (modules)** - focusing on modules particularly active across *blood cell types*.  
   
   
@@ -115,11 +116,11 @@ It would be idealistic to expect from unsupervised ICA model to extract one-to-o
 The heatmaps below summarise the results of such analysis when classifying several main types of myeloid cells and then classifying macrophages (one of the myeloid cells) in different tissues. This is arguably much harder problem than it would be for some other cell types, such as those highligted in **Figure 8.**, because many myeloid cell types display promiscuous gene expression, and are extremely adaptable to the local environment (to the extent that e.g. in some sc-'omics studies monocytes, macrophages and dendritic cells are clumped into "myeloid cells"). 
 
   
-<img src="figures/beta_heatmaps/Myelo.1.betas.clust_copy.png" width="80%" style="display: block; margin: auto;" />
+<img src="figs/beta_heatmaps/Myelo.1.betas.clust_copy.png" width="80%" style="display: block; margin: auto;" />
 **Figure 9. Heatmap of active coefficients corresponding to ICA-derived modules selected by the sparse glmnet model for myeloid cell types.** Non-zero coefficients indicate to which extent is a particular component (module) used to explain a cell identity.  
   
   
-<img src="figures/beta_heatmaps/Myelo.4.betas.clust_copy.png" width="65%" style="display: block; margin: auto;" />
+<img src="figs/beta_heatmaps/Myelo.4.betas.clust_copy.png" width="65%" style="display: block; margin: auto;" />
 **Figure 10. Heatmap of active coefficients corresponding to ICE-derived modules selected by the sparse glmnet model for macrophages across 7 different tissues.** Non-zero coefficients indicate to which extent is a particular component (module) used to explain a cell identity.  
   
   
@@ -133,11 +134,11 @@ Along with the models based on *ICA-derived cell scores* as predictors, we fit a
 The fitted models were then compared for their sparsity and the predictive performance when used to predict unseen cells in a test sample. When splitting data into training (85%) and testing (15%) sets, we took into account tissue and cell type annotation to ensure balance on these two levels. Figures 11 and 12 summarise such sparsity and predictive performance results for the myeloid and macroiphage classification, respectively. Based on the results, we chose to further focus on *Elastic net* models cross-validated based on *Deviance* criterion (and using *SumF normalised* data).  
   
   
-<img src="figures/my1.png" width="70%" style="display: block; margin: auto;" />
+<img src="figs/my1.png" width="70%" style="display: block; margin: auto;" />
 **Figure 11. Model selection for myeloid cell types (global cell type modules).** Two different types of models were compared – those based on *ICA-derived cell scores* (left) and those based on individual *gene expressions* as explanatory variables (right). Models were also assessed on two different data normalisations – those based on *spike-in factors only* and those based *'sum' (deconvolution) factors*. First panel shows model *sparsity* i.e. number of non-zero coefficients. Second panel shows models’ predictive performance in a form of *per class (cell type) F1 statistics and overall Kappa statistics* (precision and recall based statistics). Third panel shows predictive performance in a form of *per class (cell type) balanced accuracy and overall accuracy statistics* (sensitivity and specificity based statistics). The columns with numbers mark the overall method of choice: *Elastic net* models with *Deviance* used as a measure of fit during cross-validation.  
   
   
-<img src="figures/my2.png" width="70%" style="display: block; margin: auto;" />
+<img src="figs/my2.png" width="70%" style="display: block; margin: auto;" />
 **Figure 12. Model selection for macrophages across different tissues (tissue-specific modules).** Two different types of models were compared – those based on *ICA-derived cell scores* (left) and those based on individual *gene expressions* as explanatory variables (right). Models were also assessed on two different data normalisations – those based on *spike-in factors only* and those based *'sum' (deconvolution) factors*. First panel shows model *sparsity* i.e. number of non-zero coefficients. Second panel shows models’ predictive performance in a form of *per class (cell type) F1 statistics and overall Kappa statistics* (precision and recall based statistics). Third panel shows predictive performance in a form of *per class (cell type) balanced accuracy and overall accuracy statistics* (sensitivity and specificity based statistics). The columns with numbers mark the overall method of choice: *Elastic net* models with *Deviance* used as a measure of fit during cross-validation.   
   
   
@@ -149,7 +150,7 @@ Unlike the matrix of gene weights representing independent components, the matri
   
 We now turn our attention to biological content of modules associated with the investigated cell identities. ICA-derived matrix of gene weights has a sparse distribution with heavy tails (**Figure 1.**), making it easy to identify genes most strongly associated with a particular component and extract the corresponding module of co-expressed or co-repressed genes (depending on the sign of gene weight and the sign of cell score in a particular cell). We analysed characteristics of modules with various degree of compactness, when choosing genes from the tails of independent components at 2, 3 or 4 standard deviations (sd) from zero (**Figure 13.**). 3 sd cut-off provides a good balance between proportion of module’s total weight captured and the individual gene re-use across modules, whereas 4 sd cut-off gives compact modules more amenable to visualisation. These two cut-offs result in average module size of about 100 and 50 genes, respectively. Most modules could further be split into modules of genes with positive and negative weights, which often have opposite expression tendencies across some cell types (co-expression / co-repression). 
   
-<img src="figures/Module.sizes.weight.reuse.SD_copy.png" width="70%" style="display: block; margin: auto;" />
+<img src="figs/Module.sizes.weight.reuse.SD_copy.png" width="70%" style="display: block; margin: auto;" />
 **Figure 13. Comparative analysis of module characteristics at different levels of cut-off stringency.** Each row shows different cut-off levels applied on gene weights when deciding on which genes are sufficiently associated with a component and therefore form a module. Cut-offs applied were 2, 3, and 4 standard deviations from zero. Each column shows different module characteristic – size (number of genes in a module), weight (proportion of component’s entire weight capured i.e. sum of squared gene weights), and gene reuse (in how many modules individual genes participate). Blue insets refers to the total number of unique genes present in all 100 modules at each levels of cut-off stringency and, in brackets, the average gene reuse factor i.e. in how many modules each unique gene participates on average.  
   
   
@@ -157,15 +158,15 @@ We now turn our attention to biological content of modules associated with the i
 Below, we highlight gene co-expression patterns for several modules which participate in defining cell identities. Later, we test to what extent they overlap with known sets of genes using gene set analyses, and suggest transcriptional regulators behind modules and cell types.  
   
   
-<img src="figures/module_GE_dots/Myelo.1/Myelo.1.module.40_copy.png" width="34%" /><img src="figures/module_GE_dots/Myelo.1/Myelo.1.module.23_copy.png" width="32%" /><img src="figures/module_GE_dots/Myelo.1/Myelo.1.module.36_copy.png" width="34%" />
+<img src="figs/module_GE_dots/Myelo.1.module.40_copy.png" width="34%" /><img src="figs/module_GE_dots/Myelo.1.module.23_copy.png" width="32%" /><img src="figs/module_GE_dots/Myelo.1.module.36_copy.png" width="34%" />
 **Figure 14. Module 40, 23 and 36 gene expression pattern across myeloid cell types** - Module 40 being particularly active in *monocytes*; 23 in *microglia*; and 36 in *brain pericytes*, actually a non-myeloid cell of sometimes debated origin). Dot size represents the proportion of cells in each category showing detectable gene expression, dot colour intensity represents average gene expression. Genes names in larger, positive tail of the component (module) are in dark blue, those in smaller, negative tail are written in red (4sd cut-off).  
   
   
-<img src="figures/module_GE_dots/Myelo.4/Myelo.4.module.52_copy.png" width="42%" /><img src="figures/module_GE_dots/Myelo.4/Myelo.4.module.63_copy.png" width="42%" />
+<img src="figs/module_GE_dots/Myelo.4.module.52_copy.png" width="42%" /><img src="figs/module_GE_dots/Myelo.4.module.63_copy.png" width="42%" />
 **Figure 15. Module 52 and 63 gene expression pattern in macrophages across 7 organs** - Module 52 being particularly active in *bone marrow macrophages* and 63 in *spleen macrophages*. Dot size represents the proportion of cells in each category showing detectable gene expression, dot colour intensity represents average gene expression. Genes names in larger, positive tail of the component (module) are in dark blue, those in smaller, negative tail are written in red (4sd cut-off).  
   
   
-<img src="figures/module_GE_dots/Endo.1/Endo.1.module.9_copy.png" width="20%" /><img src="figures/module_GE_dots/Endo.2/Endo.2.module.67_copy.png" width="40%" /><img src="figures/module_GE_dots/Endo.2/Endo.2.module.82_copy.png" width="40%" />
+<img src="figs/module_GE_dots/Endo.1.module.9_copy.png" width="20%" /><img src="figs/module_GE_dots/Endo.2.module.67_copy.png" width="40%" /><img src="figs/module_GE_dots/Endo.2.module.82_copy.png" width="40%" />
 **Figure 16. Module 9 gene expression pattern in endothelial cells (first panel) and Module 67 and 82 gene expression pattern in endothelial cells across 10 organs** - Module 9 being specific for and shared by all endothelial cells (**Figure 6.**, first panel), 67 being fairly specific for *brain endothelium*, 82 for *liver endothelial cells*. Dot size represents the proportion of cells in each category showing detectable gene expression, dot colour intensity represents average gene expression. Genes names in larger, positive tail of the component (module) are in dark blue, those in smaller, negative tail are written in red (4sd cut-off).  
   
   
@@ -173,15 +174,15 @@ Below, we highlight gene co-expression patterns for several modules which partic
 Figures 17-19. summarise Reactome gene set enrichment analyses for some of the above mentioned modules – here grouped in: global pattern modules (Fig.17) (with the exception of “mesenchymal cell” module 5 and general “immune cell” modules 6 and 64, those are mostly enriched in processes associated with cell proliferation (modules 37, 42), RNA processing and metabolism (module 41), not strictly cell identity; endothelial cell modules (Fig.18); and blood cell modules (Fig.19).
   
   
-<img src="figures/module_ora_gsea_tf/global.reactome.ora.ma.mi_copy.png" width="85%" style="display: block; margin: auto 0 auto auto;" />
+<img src="figs/module_ora_gsea_tf/global.reactome.ora.ma.mi_copy.png" width="85%" style="display: block; margin: auto 0 auto auto;" />
 **Figure 17. Reactome gene set overrepresentation analysis.** For this purpose, each module is split in a major (M) and minor (m) submodule, containing genes with positive and negative weights, respectively. ICA components are reoriented so that the heavier tail of each component is positive. In this way the submodule with positive weights is always larger submodule, hence called major (and conversly for minor submodules).  
   
   
-<img src="figures/module_ora_gsea_tf/endothel.reactome.ora.ma.mi_copy.png" width="95%" style="display: block; margin: auto 0 auto auto;" />
+<img src="figs/module_ora_gsea_tf/endothel.reactome.ora.ma.mi_copy.png" width="95%" style="display: block; margin: auto 0 auto auto;" />
 **Figure 18. Reactome gene set overrepresentation analysis.** For this purpose, each module is split in a major (M) and minor (m) submodule, containing genes with positive and negative weights, respectively. ICA components are reoriented so that the heavier tail of each component is positive. In this way the submodule with positive weights is always larger submodule, hence called major (and conversly for minor submodules).  
   
   
-<img src="figures/module_ora_gsea_tf/blood.reactome.ora.ma.mi_copy.png" width="100%" style="display: block; margin: auto 0 auto auto;" />
+<img src="figs/module_ora_gsea_tf/blood.reactome.ora.ma.mi_copy.png" width="100%" style="display: block; margin: auto 0 auto auto;" />
 **Figure 19. Reactome gene set overrepresentation analysis.** For this purpose, each module is split in a major (M) and minor (m) submodule, containing genes with positive and negative weights, respectively. ICA components are reoriented so that the heavier tail of each component is positive. In this way the submodule with positive weights is always larger submodule, hence called major (and conversly for minor submodules).  
   
   
@@ -204,13 +205,13 @@ $$ Spec(y)=\sum_x{P(x|y)I(x)} $$
  Spec score is calculated for each gene in each cell type in the sample, where *y* represents a cell type, *x* is the level of gene expression (usually binned expression) and *n* is total number of cell types in the sample. Effectively Spec score measures the average amount of information about cell's identity provided by a measurement of the gene's expression level in cell type y (Birnbaum and Kussell, 2011).  
    
   
-<img src="figures/spec_percell_bin5_copy.png" width="40%" /><img src="figures/spec_pergene_bin5_copy.png" width="40%" />
+<img src="figs/spec_percell_bin5_copy.png" width="40%" /><img src="figs/spec_pergene_bin5_copy.png" width="40%" />
   
 **Figure 20. The distribution of Spec scores (specificity or uniqueness scores for cell type--gene pairs).** Left panel: Spec scores for each of 77 cell types (y axis), ranked form highest to lowest across 7500 genes (x axis). Right panel: Spec scores of each individual gene (y axis), ranked form highest to lowest across accross cell types (x axis).  
   
   
   
-<img src="figures/spec_heatmap_bin5_copy.png" width="100%" style="display: block; margin: auto;" />
+<img src="figs/spec_heatmap_bin5_copy.png" width="100%" style="display: block; margin: auto;" />
 **Figure 21. Heatmap showing distribution of cell type--gene Spec scores** and efficient clustering and reconstitution of cell type hierarchies that replicates known cell type relationships.  
   
   
@@ -224,11 +225,11 @@ Once modules are defined they are treated as fixed groups of co-expressed genes 
 Here we present a detailed analysis of one module (module 52) that is widely used across myeloid spectrum of cells – to highlight different co-expression structure (sub-modules) in different myeloid cells and different putative transcriptional regulators behind these structures. The analysis is based on testing of significance of pairwise Spearman correlations either amongst module genes or between module genes and transcription factors in each cell type separately. We can see particularly active co-expression network being formed in macrophages and a number of well-known myeloid transcription factors identified as a putative regulators and grouped in five different regulatory sub-modules. By thresholding the cell type-specific correlations between genes on their significance and magnitude, this method provides a way to trim modules from their general structure (derived in a way to satisfy the entire expression matrix) and adapt them to a specific cell type by only keeping genes co-regulated in that cell type.  
   
   
-<img src="figures/module_networks/52.myelo.png" width="50%" /><img src="figures/module_networks/52.mac.png" width="50%" /><img src="figures/module_networks/52.mo.png" width="50%" /><img src="figures/module_networks/52.gr.png" width="50%" />
+<img src="figs/module_networks/52.myelo.png" width="50%" /><img src="figs/module_networks/52.mac.png" width="50%" /><img src="figs/module_networks/52.mo.png" width="50%" /><img src="figs/module_networks/52.gr.png" width="50%" />
 **Figure 22. Different co-expression structure (sub-modularity) of module 52** across all myeloid cells combined, in macrophages, monocytes and granulocytes. For each cell type separately, different colours indicate memberships to different locally more correlated groups of genes (sub-modules). Circle size relates to node degree. Displayed are only correlations with false discovery rates below 0.01 and absolute strength above 0.3.  
   
   
-<img src="figures/module_networks/52.myelo.TF.png" width="50%" /><img src="figures/module_networks/52.mac.TF.png" width="50%" /><img src="figures/module_networks/52.mo.TF.png" width="50%" /><img src="figures/module_networks/52.gr.TF.png" width="50%" />
+<img src="figs/module_networks/52.myelo.TF.png" width="50%" /><img src="figs/module_networks/52.mac.TF.png" width="50%" /><img src="figs/module_networks/52.mo.TF.png" width="50%" /><img src="figs/module_networks/52.gr.TF.png" width="50%" />
 **Figure 23. Different putative co-regulation structure (sub-modularity) between module 52 and transcription factors** across all myeloid cells combined, in macrophages, monocytes and granulocytes. Bipartite network based on significant correlations between module genes and transcription factors. Yellow circles are module genes, red squares are transcription factors – size relates to node degrees. Grey shaded areas are sub-modules based on Louvian modularity optimisation. Displayed are only correlations with false discovery rates below 0.01 and absolute strength above 0.3.  
   
   
