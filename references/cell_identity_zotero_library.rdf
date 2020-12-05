@@ -1,0 +1,3235 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="#item_1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+    </bib:Article>
+    <bib:Article rdf:about="http://www.nature.com/articles/s41467-018-03424-4">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2041-1723"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saelens</foaf:surname>
+                        <foaf:givenName>Wouter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cannoodt</foaf:surname>
+                        <foaf:givenName>Robrecht</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saeys</foaf:surname>
+                        <foaf:givenName>Yvan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_3"/>
+        <dc:title>A comprehensive evaluation of module detection methods for gene expression data</dc:title>
+        <dc:date>12/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/articles/s41467-018-03424-4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-20 13:59:39</dcterms:dateSubmitted>
+        <bib:pages>1090</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2041-1723">
+        <prism:volume>9</prism:volume>
+        <dc:title>Nature Communications</dc:title>
+        <dc:identifier>DOI 10.1038/s41467-018-03424-4</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Nat Commun</dcterms:alternative>
+        <dc:identifier>ISSN 2041-1723</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_3">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41467-018-03424-4.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-20 13:59:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S2405471219301462">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:24054712"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stein-O’Brien</foaf:surname>
+                        <foaf:givenName>Genevieve L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clark</foaf:surname>
+                        <foaf:givenName>Brian S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sherman</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zibetti</foaf:surname>
+                        <foaf:givenName>Cristina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Qiwen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sealfon</foaf:surname>
+                        <foaf:givenName>Rachel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Sheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qian</foaf:surname>
+                        <foaf:givenName>Jiang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Colantuoni</foaf:surname>
+                        <foaf:givenName>Carlo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blackshaw</foaf:surname>
+                        <foaf:givenName>Seth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goff</foaf:surname>
+                        <foaf:givenName>Loyal A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fertig</foaf:surname>
+                        <foaf:givenName>Elana J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4"/>
+        <dc:title>Decomposing Cell Identity for Transfer Learning across Cellular Measurements, Platforms, Tissues, and Species</dc:title>
+        <dc:date>05/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S2405471219301462</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-20 14:05:49</dcterms:dateSubmitted>
+        <bib:pages>395-411.e8</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:24054712">
+        <prism:volume>8</prism:volume>
+        <dc:title>Cell Systems</dc:title>
+        <dc:identifier>DOI 10.1016/j.cels.2019.04.004</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>Cell Systems</dcterms:alternative>
+        <dc:identifier>ISSN 24054712</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Stein-O’Brien et al. - 2019 - Decomposing Cell Identity for Transfer Learning ac.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0168952518301288">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:01689525"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crow</foaf:surname>
+                        <foaf:givenName>Megan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gillis</foaf:surname>
+                        <foaf:givenName>Jesse</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6"/>
+        <dc:title>Co-expression in Single-Cell Analysis: Saving Grace or Original Sin?</dc:title>
+        <dc:date>11/2018</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Co-expression in Single-Cell Analysis</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0168952518301288</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-23 06:16:33</dcterms:dateSubmitted>
+        <bib:pages>823-831</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:01689525">
+        <prism:volume>34</prism:volume>
+        <dc:title>Trends in Genetics</dc:title>
+        <dc:identifier>DOI 10.1016/j.tig.2018.07.007</dc:identifier>
+        <prism:number>11</prism:number>
+        <dcterms:alternative>Trends in Genetics</dcterms:alternative>
+        <dc:identifier>ISSN 01689525</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Crow and Gillis - 2018 - Co-expression in Single-Cell Analysis Saving Grac.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/nbt.3711">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1087-0156,%201546-1696"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wagner</foaf:surname>
+                        <foaf:givenName>Allon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Regev</foaf:surname>
+                        <foaf:givenName>Aviv</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yosef</foaf:surname>
+                        <foaf:givenName>Nir</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8"/>
+        <dc:title>Revealing the vectors of cellular identity with single-cell genomics</dc:title>
+        <dc:date>11/2016</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.nature.com/articles/nbt.3711</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-23 06:17:32</dcterms:dateSubmitted>
+        <bib:pages>1145-1160</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1087-0156,%201546-1696">
+        <prism:volume>34</prism:volume>
+        <dc:title>Nature Biotechnology</dc:title>
+        <dc:identifier>DOI 10.1038/nbt.3711</dc:identifier>
+        <prism:number>11</prism:number>
+        <dcterms:alternative>Nat Biotechnol</dcterms:alternative>
+        <dc:identifier>ISSN 1087-0156, 1546-1696</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Wagner et al. - 2016 - Revealing the vectors of cellular identity with si.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S2405471216301090">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>Cell Systems</dc:title>
+                <dc:identifier>DOI 10.1016/j.cels.2016.04.001</dc:identifier>
+                <prism:number>4</prism:number>
+                <dcterms:alternative>Cell Systems</dcterms:alternative>
+                <dc:identifier>ISSN 24054712</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heimberg</foaf:surname>
+                        <foaf:givenName>Graham</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bhatnagar</foaf:surname>
+                        <foaf:givenName>Rajat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>El-Samad</foaf:surname>
+                        <foaf:givenName>Hana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thomson</foaf:surname>
+                        <foaf:givenName>Matt</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_10"/>
+        <dc:title>Low Dimensionality in Gene Expression Data Enables the Accurate Extraction of Transcriptional Programs from Shallow Sequencing</dc:title>
+        <dcterms:abstract>A tradeoff between precision and throughput constrains all biological measurements, including sequencing-based technologies. Here, we develop a mathematical framework that deﬁnes this tradeoff between mRNA-sequencing depth and error in the extraction of biological information. We ﬁnd that transcriptional programs can be reproducibly identiﬁed at 1% of conventional read depths. We demonstrate that this resilience to noise of ‘‘shallow’’ sequencing derives from a natural property, low dimensionality, which is a fundamental feature of gene expression data. Accordingly, our conclusions hold for $350 single-cell and bulk gene expression datasets across yeast, mouse, and human. In total, our approach provides quantitative guidelines for the choice of sequencing depth necessary to achieve a desired level of analytical resolution. We codify these guidelines in an open-source read depth calculator. This work demonstrates that the structure inherent in biological networks can be productively exploited to increase measurement throughput, an idea that is now common in many branches of science, such as image processing.</dcterms:abstract>
+        <dc:date>04/2016</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S2405471216301090</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-23 12:00:43</dcterms:dateSubmitted>
+        <bib:pages>239-250</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Heimberg et al. - 2016 - Low Dimensionality in Gene Expression Data Enables.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://onlinelibrary.wiley.com/doi/abs/10.15252/msb.20188557">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1744-4292,%201744-4292"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Levitin</foaf:surname>
+                        <foaf:givenName>Hanna Mendes</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuan</foaf:surname>
+                        <foaf:givenName>Jinzhou</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Yim Ling</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ruiz</foaf:surname>
+                        <foaf:givenName>Francisco JR</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bush</foaf:surname>
+                        <foaf:givenName>Erin C</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bruce</foaf:surname>
+                        <foaf:givenName>Jeffrey N</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Canoll</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iavarone</foaf:surname>
+                        <foaf:givenName>Antonio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lasorella</foaf:surname>
+                        <foaf:givenName>Anna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blei</foaf:surname>
+                        <foaf:givenName>David M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sims</foaf:surname>
+                        <foaf:givenName>Peter A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_15"/>
+        <dc:title>De novo gene signature identification from single‐cell RNA‐seq with hierarchical Poisson factorization</dc:title>
+        <dc:date>02/2019</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>&lt;i&gt;De novo&lt;/i&gt; gene signature identification from single‐cell &lt;span style=&quot;font-variant</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/abs/10.15252/msb.20188557</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:21:41</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1744-4292,%201744-4292">
+        <prism:volume>15</prism:volume>
+        <dc:title>Molecular Systems Biology</dc:title>
+        <dc:identifier>DOI 10.15252/msb.20188557</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Mol Syst Biol</dcterms:alternative>
+        <dc:identifier>ISSN 1744-4292, 1744-4292</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Levitin et al. - 2019 - iDe novoi gene signature identification from .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="http://biorxiv.org/lookup/doi/10.1101/737601">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Bioinformatics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Svensson</foaf:surname>
+                        <foaf:givenName>Valentine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pachter</foaf:surname>
+                        <foaf:givenName>Lior</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_19"/>
+        <dc:title>Interpretable factor models of single-cell RNA-seq via variational autoencoders</dc:title>
+        <dcterms:abstract>Single cell RNA-seq makes possible the investigation of variability in gene expression among cells, and dependence of variation on cell type. Statistical inference methods for such analyses must be scalable, and ideally interpretable. We present an approach based on a modification of a recently published highly scalable variational autoencoder framework that provides interpretability without sacrificing much accuracy. We demonstrate that our approach enables identification of gene programs in massive datasets. Our strategy, namely the learning of factor models with the auto-encoding variational Bayes framework, is not domain specific and may be of interest for other applications.</dcterms:abstract>
+        <dc:date>2019-08-16</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://biorxiv.org/lookup/doi/10.1101/737601</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:28:05</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1101/737601</dc:description>
+        <z:type>preprint</z:type>
+    </bib:Report>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.biorxiv.org/content/biorxiv/early/2019/08/16/737601.full.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:28:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0168952518301240">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>34</prism:volume>
+                <dc:title>Trends in Genetics</dc:title>
+                <dc:identifier>DOI 10.1016/j.tig.2018.07.003</dc:identifier>
+                <prism:number>10</prism:number>
+                <dcterms:alternative>Trends in Genetics</dcterms:alternative>
+                <dc:identifier>ISSN 01689525</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stein-O’Brien</foaf:surname>
+                        <foaf:givenName>Genevieve L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Arora</foaf:surname>
+                        <foaf:givenName>Raman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Culhane</foaf:surname>
+                        <foaf:givenName>Aedin C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Favorov</foaf:surname>
+                        <foaf:givenName>Alexander V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garmire</foaf:surname>
+                        <foaf:givenName>Lana X.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Greene</foaf:surname>
+                        <foaf:givenName>Casey S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goff</foaf:surname>
+                        <foaf:givenName>Loyal A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Yifeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ngom</foaf:surname>
+                        <foaf:givenName>Aloune</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ochs</foaf:surname>
+                        <foaf:givenName>Michael F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenName>Yanxun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fertig</foaf:surname>
+                        <foaf:givenName>Elana J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_20"/>
+        <dc:title>Enter the Matrix: Factorization Uncovers Knowledge from Omics</dc:title>
+        <dc:date>10/2018</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Enter the Matrix</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0168952518301240</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:30:37</dcterms:dateSubmitted>
+        <bib:pages>790-805</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_20">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Stein-O’Brien et al. - 2018 - Enter the Matrix Factorization Uncovers Knowledge.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1862-5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1474-760X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alquicira-Hernandez</foaf:surname>
+                        <foaf:givenName>Jose</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sathe</foaf:surname>
+                        <foaf:givenName>Anuja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ji</foaf:surname>
+                        <foaf:givenName>Hanlee P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenName>Quan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Powell</foaf:surname>
+                        <foaf:givenName>Joseph E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_22"/>
+        <dc:title>scPred: accurate supervised method for cell-type classification from single-cell RNA-seq data</dc:title>
+        <dcterms:abstract>Single-cell RNA sequencing has enabled the characterization of highly specific cell types in many tissues, as well as both primary and stem cell-derived cell lines. An important facet of these studies is the ability to identify the transcriptional signatures that define a cell type or state. In theory, this information can be used to classify an individual cell based on its transcriptional profile. Here, we present scPred, a new generalizable method that is able to provide highly accurate classification of single cells, using a combination of unbiased feature selection from a reduced-dimension space, and machine-learning probability-based prediction method. We apply scPred to scRNAseq data from pancreatic tissue, mononuclear cells, colorectal tumor biopsies, and circulating dendritic cells and show that scPred is able to classify individual cells with high accuracy. The generalized method is available at https://github.com/powellgenomicslab/scPred/.</dcterms:abstract>
+        <dc:date>12/2019</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>scPred</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1862-5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:35:16</dcterms:dateSubmitted>
+        <bib:pages>264</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1474-760X">
+        <prism:volume>20</prism:volume>
+        <dc:title>Genome Biology</dc:title>
+        <dc:identifier>DOI 10.1186/s13059-019-1862-5</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Genome Biol</dcterms:alternative>
+        <dc:identifier>ISSN 1474-760X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Alquicira-Hernandez et al. - 2019 - scPred accurate supervised method for cell-type c.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0092867418309553">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00928674"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saunders</foaf:surname>
+                        <foaf:givenName>Arpiar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Macosko</foaf:surname>
+                        <foaf:givenName>Evan Z.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wysoker</foaf:surname>
+                        <foaf:givenName>Alec</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goldman</foaf:surname>
+                        <foaf:givenName>Melissa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krienen</foaf:surname>
+                        <foaf:givenName>Fenna M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>de Rivera</foaf:surname>
+                        <foaf:givenName>Heather</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bien</foaf:surname>
+                        <foaf:givenName>Elizabeth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baum</foaf:surname>
+                        <foaf:givenName>Matthew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bortolin</foaf:surname>
+                        <foaf:givenName>Laura</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Shuyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goeva</foaf:surname>
+                        <foaf:givenName>Aleksandrina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nemesh</foaf:surname>
+                        <foaf:givenName>James</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kamitaki</foaf:surname>
+                        <foaf:givenName>Nolan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brumbaugh</foaf:surname>
+                        <foaf:givenName>Sara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kulp</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCarroll</foaf:surname>
+                        <foaf:givenName>Steven A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_24"/>
+        <dc:title>Molecular Diversity and Specializations among the Cells of the Adult Mouse Brain</dc:title>
+        <dcterms:abstract>The mammalian brain is composed of diverse, specialized cell populations. To systematically ascertain and learn from these cellular specializations, we used Drop-seq to proﬁle RNA expression in 690,000 individual cells sampled from 9 regions of the adult mouse brain. We identiﬁed 565 transcriptionally distinct groups of cells using computational approaches developed to distinguish biological from technical signals. Cross-region analysis of these 565 cell populations revealed features of brain organization, including a gene-expression module for synthesizing axonal and presynaptic components, patterns in the co-deployment of voltage-gated ion channels, functional distinctions among the cells of the vasculature and specialization of glutamatergic neurons across cortical regions. Systematic neuronal classiﬁcations for two complex basal ganglia nuclei and the striatum revealed a rare population of spiny projection neurons. This adult mouse brain cell atlas, accessible through interactive online software (DropViz), serves as a reference for development, disease, and evolution.</dcterms:abstract>
+        <dc:date>08/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0092867418309553</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:37:38</dcterms:dateSubmitted>
+        <bib:pages>1015-1030.e16</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00928674">
+        <prism:volume>174</prism:volume>
+        <dc:title>Cell</dc:title>
+        <dc:identifier>DOI 10.1016/j.cell.2018.07.028</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Cell</dcterms:alternative>
+        <dc:identifier>ISSN 00928674</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_24">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Saunders et al. - 2018 - Molecular Diversity and Specializations among the .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S2211124718316346">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:22111247"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Suo</foaf:surname>
+                        <foaf:givenName>Shengbao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Qian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saadatpour</foaf:surname>
+                        <foaf:givenName>Assieh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fei</foaf:surname>
+                        <foaf:givenName>Lijiang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guo</foaf:surname>
+                        <foaf:givenName>Guoji</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuan</foaf:surname>
+                        <foaf:givenName>Guo-Cheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_26"/>
+        <dc:title>Revealing the Critical Regulators of Cell Identity in the Mouse Cell Atlas</dc:title>
+        <dcterms:abstract>Recent progress in single-cell technologies has enabled the identiﬁcation of all major cell types in mouse. However, for most cell types, the regulatory mechanism underlying their identity remains poorly understood. By computational analysis of the recently published mouse cell atlas data, we have identiﬁed 202 regulons whose activities are highly variable across different cell types, and more importantly, predicted a small set of essential regulators for each major cell type in mouse. Systematic validation by automated literature and data mining provides strong additional support for our predictions. Thus, these predictions serve as a valuable resource that would be useful for the broad biological community. Finally, we have built a user-friendly, interactive web portal to enable users to navigate this mouse cell network atlas.</dcterms:abstract>
+        <dc:date>11/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S2211124718316346</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:39:54</dcterms:dateSubmitted>
+        <bib:pages>1436-1445.e3</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:22111247">
+        <prism:volume>25</prism:volume>
+        <dc:title>Cell Reports</dc:title>
+        <dc:identifier>DOI 10.1016/j.celrep.2018.10.045</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>Cell Reports</dcterms:alternative>
+        <dc:identifier>ISSN 22111247</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_26">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Suo et al. - 2018 - Revealing the Critical Regulators of Cell Identity.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0580-x">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>16</prism:volume>
+                <dc:title>Genome Biology</dc:title>
+                <dc:identifier>DOI 10.1186/s13059-015-0580-x</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Genome Biol</dcterms:alternative>
+                <dc:identifier>ISSN 1474-760X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Efroni</foaf:surname>
+                        <foaf:givenName>Idan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ip</foaf:surname>
+                        <foaf:givenName>Pui-Leng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nawy</foaf:surname>
+                        <foaf:givenName>Tal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mello</foaf:surname>
+                        <foaf:givenName>Alison</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Birnbaum</foaf:surname>
+                        <foaf:givenName>Kenneth D</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_30"/>
+        <dc:title>Quantification of cell identity from single-cell gene expression profiles</dc:title>
+        <dcterms:abstract>The definition of cell identity is a central problem in biology. While single-cell RNA-seq provides a wealth of information regarding cell states, better methods are needed to map their identity, especially during developmental transitions. Here, we use repositories of cell type-specific transcriptomes to quantify identities from single-cell RNA-seq profiles, accurately classifying cells from Arabidopsis root tips and human glioblastoma tumors. We apply our approach to single cells captured from regenerating roots following tip excision. Our technique exposes a previously uncharacterized transient collapse of identity distant from the injury site, demonstrating the biological relevance of a quantitative cell identity index.</dcterms:abstract>
+        <dc:date>12/2015</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0580-x</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:41:22</dcterms:dateSubmitted>
+        <bib:pages>9</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Efroni et al. - 2015 - Quantification of cell identity from single-cell g.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/nrmicro2419">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1740-1526,%201740-1534"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Smet</foaf:surname>
+                        <foaf:givenName>Riet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marchal</foaf:surname>
+                        <foaf:givenName>Kathleen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_32"/>
+        <dc:title>Advantages and limitations of current network inference methods</dc:title>
+        <dcterms:abstract>Network inference, which is the reconstruction of biological networks from high-throughput data, can provide valuable information about the regulation of gene expression in cells. However, it is an underdetermined problem, as the number of interactions that can be inferred exceeds the number of independent measurements. Different state-of-the-art tools for network inference use specific assumptions and simplifications to deal with underdetermination, and these influence the inferences. The outcome of network inference therefore varies between tools and can be highly complementary. Here we categorize the available tools according to the strategies that they use to deal with the problem of underdetermination. Such categorization allows an insight into why a certain tool is more appropriate for the specific research question or data set at hand.</dcterms:abstract>
+        <dc:date>10/2010</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.nature.com/articles/nrmicro2419</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:45:37</dcterms:dateSubmitted>
+        <bib:pages>717-729</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1740-1526,%201740-1534">
+        <prism:volume>8</prism:volume>
+        <dc:title>Nature Reviews Microbiology</dc:title>
+        <dc:identifier>DOI 10.1038/nrmicro2419</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>Nat Rev Microbiol</dcterms:alternative>
+        <dc:identifier>ISSN 1740-1526, 1740-1534</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>De Smet and Marchal - 2010 - Advantages and limitations of current network infe.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.pnas.org/cgi/doi/10.1073/pnas.95.25.14863">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0027-8424,%201091-6490"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eisen</foaf:surname>
+                        <foaf:givenName>M. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spellman</foaf:surname>
+                        <foaf:givenName>P. T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brown</foaf:surname>
+                        <foaf:givenName>P. O.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Botstein</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <dc:title>Cluster analysis and display of genome-wide expression patterns</dc:title>
+        <dcterms:abstract>A system of cluster analysis for genome-wide expression data from DNA microarray hybridization is described that uses standard statistical algorithms to arrange genes according to similarity in pattern of gene expression. The output is displayed graphically, conveying the clustering and the underlying expression data simultaneously in a form intuitive for biologists. We have found in the budding yeast Saccharomyces cerevisiae that clustering gene expression data groups together efficiently genes of known similar function, and we find a similar tendency in human data. Thus patterns seen in genome-wide expression experiments can be interpreted as indications of the status of cellular processes. Also, coexpression of genes of known function with poorly characterized or novel genes may provide a simple means of gaining leads to the functions of many genes for which information is not available currently.</dcterms:abstract>
+        <dc:date>1998-12-08</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.pnas.org/cgi/doi/10.1073/pnas.95.25.14863</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:47:17</dcterms:dateSubmitted>
+        <bib:pages>14863-14868</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0027-8424,%201091-6490">
+        <prism:volume>95</prism:volume>
+        <dc:title>Proceedings of the National Academy of Sciences</dc:title>
+        <dc:identifier>DOI 10.1073/pnas.95.25.14863</dc:identifier>
+        <prism:number>25</prism:number>
+        <dcterms:alternative>Proceedings of the National Academy of Sciences</dcterms:alternative>
+        <dc:identifier>ISSN 0027-8424, 1091-6490</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Eisen et al. - 1998 - Cluster analysis and display of genome-wide expres.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/35011540">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0028-0836,%201476-4687"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hartwell</foaf:surname>
+                        <foaf:givenName>Leland H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hopfield</foaf:surname>
+                        <foaf:givenName>John J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leibler</foaf:surname>
+                        <foaf:givenName>Stanislas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Murray</foaf:surname>
+                        <foaf:givenName>Andrew W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_36"/>
+        <dc:title>From molecular to modular cell biology</dc:title>
+        <dc:date>12/1999</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.nature.com/articles/35011540</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:47:43</dcterms:dateSubmitted>
+        <bib:pages>C47-C52</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0028-0836,%201476-4687">
+        <prism:volume>402</prism:volume>
+        <dc:title>Nature</dc:title>
+        <dc:identifier>DOI 10.1038/35011540</dc:identifier>
+        <prism:number>S6761</prism:number>
+        <dcterms:alternative>Nature</dcterms:alternative>
+        <dc:identifier>ISSN 0028-0836, 1476-4687</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hartwell et al. - 1999 - From molecular to modular cell biology.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/ng1434">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1061-4036,%201546-1718"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Segal</foaf:surname>
+                        <foaf:givenName>Eran</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Friedman</foaf:surname>
+                        <foaf:givenName>Nir</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koller</foaf:surname>
+                        <foaf:givenName>Daphne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Regev</foaf:surname>
+                        <foaf:givenName>Aviv</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_38"/>
+        <dc:title>A module map showing conditional activity of expression modules in cancer</dc:title>
+        <dc:date>10/2004</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.nature.com/articles/ng1434</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:49:52</dcterms:dateSubmitted>
+        <bib:pages>1090-1098</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1061-4036,%201546-1718">
+        <prism:volume>36</prism:volume>
+        <dc:title>Nature Genetics</dc:title>
+        <dc:identifier>DOI 10.1038/ng1434</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>Nat Genet</dcterms:alternative>
+        <dc:identifier>ISSN 1061-4036, 1546-1718</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_38">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Segal et al. - 2004 - A module map showing conditional activity of expre.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/nrg3552">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1471-0056,%201471-0064"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mitra</foaf:surname>
+                        <foaf:givenName>Koyel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carvunis</foaf:surname>
+                        <foaf:givenName>Anne-Ruxandra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ramesh</foaf:surname>
+                        <foaf:givenName>Sanath Kumar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ideker</foaf:surname>
+                        <foaf:givenName>Trey</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_40"/>
+        <dc:title>Integrative approaches for finding modular structure in biological networks</dc:title>
+        <dcterms:abstract>A central goal of systems biology is to elucidate the structural and functional architecture of the cell. To this end, large and complex networks of molecular interactions are being rapidly generated for humans and model organisms. A recent focus of bioinformatics research has been to integrate these networks with each other and with diverse molecular profiles to identify sets of molecules and interactions that participate in a common biological function — that is, ‘modules’. Here, we classify such integrative approaches into four broad categories, describe their bioinformatic principles and review their applications.</dcterms:abstract>
+        <dc:date>10/2013</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.nature.com/articles/nrg3552</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:51:15</dcterms:dateSubmitted>
+        <bib:pages>719-732</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1471-0056,%201471-0064">
+        <prism:volume>14</prism:volume>
+        <dc:title>Nature Reviews Genetics</dc:title>
+        <dc:identifier>DOI 10.1038/nrg3552</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>Nat Rev Genet</dcterms:alternative>
+        <dc:identifier>ISSN 1471-0056, 1471-0064</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_40">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Mitra et al. - 2013 - Integrative approaches for finding modular structu.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/nri3642">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1474-1733,%201474-1741"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chaussabel</foaf:surname>
+                        <foaf:givenName>Damien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baldwin</foaf:surname>
+                        <foaf:givenName>Nicole</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_42"/>
+        <dc:title>Democratizing systems immunology with modular transcriptional repertoire analyses</dc:title>
+        <dcterms:abstract>Individual elements that constitute the immune system have been characterized over the few past decades, mostly through reductionist approaches. The introduction of large-scale profiling platforms has more recently facilitated the assessment of these elements on a global scale. However, the analysis and the interpretation of such large-scale datasets remains a challenge and a barrier for the wider adoption of systems approaches in immunological and clinical studies. In this Innovation article, we describe an analytical strategy that relies on the a priori determination of co‑dependent gene sets for a given biological system. Such modular transcriptional repertoires can in turn be used to simplify the analysis and the interpretation of large-scale datasets, and to design targeted immune fingerprinting assays and web applications that will further facilitate the dissemination of systems approaches in immunology.</dcterms:abstract>
+        <dc:date>4/2014</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.nature.com/articles/nri3642</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-25 03:51:55</dcterms:dateSubmitted>
+        <bib:pages>271-280</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1474-1733,%201474-1741">
+        <prism:volume>14</prism:volume>
+        <dc:title>Nature Reviews Immunology</dc:title>
+        <dc:identifier>DOI 10.1038/nri3642</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Nat Rev Immunol</dcterms:alternative>
+        <dc:identifier>ISSN 1474-1733, 1474-1741</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_42">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Chaussabel and Baldwin - 2014 - Democratizing systems immunology with modular tran.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/s41592-019-0509-5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1548-7091,%201548-7105"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>The DREAM Module Identification Challenge Consortium</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Choobdar</foaf:surname>
+                        <foaf:givenName>Sarvenaz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ahsen</foaf:surname>
+                        <foaf:givenName>Mehmet E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crawford</foaf:surname>
+                        <foaf:givenName>Jake</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tomasoni</foaf:surname>
+                        <foaf:givenName>Mattia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fang</foaf:surname>
+                        <foaf:givenName>Tao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lamparter</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenName>Junyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hescott</foaf:surname>
+                        <foaf:givenName>Benjamin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Xiaozhe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mercer</foaf:surname>
+                        <foaf:givenName>Johnathan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Natoli</foaf:surname>
+                        <foaf:givenName>Ted</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Narayan</foaf:surname>
+                        <foaf:givenName>Rajiv</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Subramanian</foaf:surname>
+                        <foaf:givenName>Aravind</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Jitao D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stolovitzky</foaf:surname>
+                        <foaf:givenName>Gustavo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kutalik</foaf:surname>
+                        <foaf:givenName>Zoltán</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lage</foaf:surname>
+                        <foaf:givenName>Kasper</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Slonim</foaf:surname>
+                        <foaf:givenName>Donna K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saez-Rodriguez</foaf:surname>
+                        <foaf:givenName>Julio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cowen</foaf:surname>
+                        <foaf:givenName>Lenore J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bergmann</foaf:surname>
+                        <foaf:givenName>Sven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marbach</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_44"/>
+        <dc:title>Assessment of network module identification across complex diseases</dc:title>
+        <dc:date>9/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/articles/s41592-019-0509-5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-26 08:27:23</dcterms:dateSubmitted>
+        <bib:pages>843-852</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1548-7091,%201548-7105">
+        <prism:volume>16</prism:volume>
+        <dc:title>Nature Methods</dc:title>
+        <dc:identifier>DOI 10.1038/s41592-019-0509-5</dc:identifier>
+        <prism:number>9</prism:number>
+        <dcterms:alternative>Nat Methods</dcterms:alternative>
+        <dc:identifier>ISSN 1548-7091, 1548-7105</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_44">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>The DREAM Module Identification Challenge Consortium et al. - 2019 - Assessment of network module identification across.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/s41586-018-0590-4">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>562</prism:volume>
+                <dc:title>Nature</dc:title>
+                <dc:identifier>DOI 10.1038/s41586-018-0590-4</dc:identifier>
+                <prism:number>7727</prism:number>
+                <dcterms:alternative>Nature</dcterms:alternative>
+                <dc:identifier>ISSN 0028-0836, 1476-4687</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>The Tabula Muris Consortium</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Overall coordination</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Logistical coordination</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Organ collection and processing</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Library preparation and sequencing</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Computational data analysis</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Cell type annotation</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Writing group</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Supplemental text writing group</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Principal investigators</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_46"/>
+        <dc:title>Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris</dc:title>
+        <dc:date>10/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/articles/s41586-018-0590-4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-26 09:09:26</dcterms:dateSubmitted>
+        <bib:pages>367-372</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_46">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>The Tabula Muris Consortium et al. - 2018 - Single-cell transcriptomics of 20 mouse organs cre.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0893608000000265">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:08936080"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hyvärinen</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oja</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_48"/>
+        <dc:title>Independent component analysis: algorithms and applications</dc:title>
+        <dcterms:abstract>A fundamental problem in neural network research, as well as in many other disciplines, is ﬁnding a suitable representation of multivariate data, i.e. random vectors. For reasons of computational and conceptual simplicity, the representation is often sought as a linear transformation of the original data. In other words, each component of the representation is a linear combination of the original variables. Well-known linear transformation methods include principal component analysis, factor analysis, and projection pursuit. Independent component analysis (ICA) is a recently developed method in which the goal is to ﬁnd a linear representation of non-Gaussian data so that the components are statistically independent, or as independent as possible. Such a representation seems to capture the essential structure of the data in many applications, including feature extraction and signal separation. In this paper, we present the basic theory and applications of ICA, and our recent work on the subject. ᭧ 2000 Published by Elsevier Science Ltd.</dcterms:abstract>
+        <dc:date>6/2000</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Independent component analysis</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0893608000000265</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-26 11:14:57</dcterms:dateSubmitted>
+        <bib:pages>411-430</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:08936080">
+        <prism:volume>13</prism:volume>
+        <dc:title>Neural Networks</dc:title>
+        <dc:identifier>DOI 10.1016/S0893-6080(00)00026-5</dc:identifier>
+        <prism:number>4-5</prism:number>
+        <dcterms:alternative>Neural Networks</dcterms:alternative>
+        <dc:identifier>ISSN 08936080</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hyvärinen and Oja - 2000 - Independent component analysis algorithms and app.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://royalsocietypublishing.org/doi/10.1098/rsta.2011.0534">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1364-503X,%201471-2962"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hyvärinen</foaf:surname>
+                        <foaf:givenName>Aapo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_50"/>
+        <dc:title>Independent component analysis: recent advances</dc:title>
+        <dc:date>2013-02-13</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Independent component analysis</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://royalsocietypublishing.org/doi/10.1098/rsta.2011.0534</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-26 11:37:27</dcterms:dateSubmitted>
+        <bib:pages>20110534</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1364-503X,%201471-2962">
+        <prism:volume>371</prism:volume>
+        <dc:title>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</dc:title>
+        <dc:identifier>DOI 10.1098/rsta.2011.0534</dc:identifier>
+        <prism:number>1984</prism:number>
+        <dcterms:alternative>Proc. R. Soc. A</dcterms:alternative>
+        <dc:identifier>ISSN 1364-503X, 1471-2962</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_50">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hyvärinen - 2013 - Independent component analysis recent advances.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.mdpi.com/1422-0067/20/18/4414">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1422-0067"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sompairac</foaf:surname>
+                        <foaf:givenName>Nicolas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nazarov</foaf:surname>
+                        <foaf:givenName>Petr V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Czerwinska</foaf:surname>
+                        <foaf:givenName>Urszula</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cantini</foaf:surname>
+                        <foaf:givenName>Laura</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Biton</foaf:surname>
+                        <foaf:givenName>Anne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Molkenov</foaf:surname>
+                        <foaf:givenName>Askhat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhumadilov</foaf:surname>
+                        <foaf:givenName>Zhaxybay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barillot</foaf:surname>
+                        <foaf:givenName>Emmanuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Radvanyi</foaf:surname>
+                        <foaf:givenName>Francois</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gorban</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kairov</foaf:surname>
+                        <foaf:givenName>Ulykbek</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zinovyev</foaf:surname>
+                        <foaf:givenName>Andrei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_52"/>
+        <dc:title>Independent Component Analysis for Unraveling the Complexity of Cancer Omics Datasets</dc:title>
+        <dcterms:abstract>Independent component analysis (ICA) is a matrix factorization approach where the signals captured by each individual matrix factors are optimized to become as mutually independent as possible. Initially suggested for solving source blind separation problems in various ﬁelds, ICA was shown to be successful in analyzing functional magnetic resonance imaging (fMRI) and other types of biomedical data. In the last twenty years, ICA became a part of the standard machine learning toolbox, together with other matrix factorization methods such as principal component analysis (PCA) and non-negative matrix factorization (NMF). Here, we review a number of recent works where ICA was shown to be a useful tool for unraveling the complexity of cancer biology from the analysis of diﬀerent types of omics data, mainly collected for tumoral samples. Such works highlight the use of ICA in dimensionality reduction, deconvolution, data pre-processing, meta-analysis, and others applied to diﬀerent data types (transcriptome, methylome, proteome, single-cell data). We particularly focus on the technical aspects of ICA application in omics studies such as using diﬀerent protocols, determining the optimal number of components, assessing and improving reproducibility of the ICA results, and comparison with other popular matrix factorization techniques. We discuss the emerging ICA applications to the integrative analysis of multi-level omics datasets and introduce a conceptual view on ICA as a tool for deﬁning functional subsystems of a complex biological system and their interactions under various conditions. Our review is accompanied by a Jupyter notebook which illustrates the discussed concepts and provides a practical tool for applying ICA to the analysis of cancer omics datasets.</dcterms:abstract>
+        <dc:date>2019-09-07</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/1422-0067/20/18/4414</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-26 11:40:18</dcterms:dateSubmitted>
+        <bib:pages>4414</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1422-0067">
+        <prism:volume>20</prism:volume>
+        <dc:title>International Journal of Molecular Sciences</dc:title>
+        <dc:identifier>DOI 10.3390/ijms20184414</dc:identifier>
+        <prism:number>18</prism:number>
+        <dcterms:alternative>IJMS</dcterms:alternative>
+        <dc:identifier>ISSN 1422-0067</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_52">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Sompairac et al. - 2019 - Independent Component Analysis for Unraveling the .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://academic.oup.com/bioinformatics/article/35/21/4307/5426054">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1367-4803,%201460-2059"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cantini</foaf:surname>
+                        <foaf:givenName>Laura</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kairov</foaf:surname>
+                        <foaf:givenName>Ulykbek</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>de Reyniès</foaf:surname>
+                        <foaf:givenName>Aurélien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barillot</foaf:surname>
+                        <foaf:givenName>Emmanuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Radvanyi</foaf:surname>
+                        <foaf:givenName>François</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zinovyev</foaf:surname>
+                        <foaf:givenName>Andrei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Birol</foaf:surname>
+                        <foaf:givenName>Inanc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_54"/>
+        <dc:title>Assessing reproducibility of matrix factorization methods in independent transcriptomes</dc:title>
+        <dcterms:abstract>Motivation: Matrix factorization (MF) methods are widely used in order to reduce dimensionality of transcriptomic datasets to the action of few hidden factors (metagenes). MF algorithms have never been compared based on the between-datasets reproducibility of their outputs in similar independent datasets. Lack of this knowledge might have a crucial impact when generalizing the predictions made in a study to others.</dcterms:abstract>
+        <dc:date>2019-11-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/bioinformatics/article/35/21/4307/5426054</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-28 03:31:18</dcterms:dateSubmitted>
+        <bib:pages>4307-4313</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1367-4803,%201460-2059">
+        <prism:volume>35</prism:volume>
+        <dc:title>Bioinformatics</dc:title>
+        <dc:identifier>DOI 10.1093/bioinformatics/btz225</dc:identifier>
+        <prism:number>21</prism:number>
+        <dc:identifier>ISSN 1367-4803, 1460-2059</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_54">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Cantini et al. - 2019 - Assessing reproducibility of matrix factorization .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://dx.plos.org/10.1371/journal.pcbi.1002240">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1553-7358"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Venet</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dumont</foaf:surname>
+                        <foaf:givenName>Jacques E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Detours</foaf:surname>
+                        <foaf:givenName>Vincent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rigoutsos</foaf:surname>
+                        <foaf:givenName>Isidore</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_56"/>
+        <dc:title>Most Random Gene Expression Signatures Are Significantly Associated with Breast Cancer Outcome</dc:title>
+        <dcterms:abstract>Bridging the gap between animal or in vitro models and human disease is essential in medical research. Researchers often suggest that a biological mechanism is relevant to human cancer from the statistical association of a gene expression marker (a signature) of this mechanism, that was discovered in an experimental system, with disease outcome in humans. We examined this argument for breast cancer. Surprisingly, we found that gene expression signatures—unrelated to cancer—of the effect of postprandial laughter, of mice social defeat and of skin fibroblast localization were all significantly associated with breast cancer outcome. We next compared 47 published breast cancer outcome signatures to signatures made of random genes. Twenty-eight of them (60%) were not significantly better outcome predictors than random signatures of identical size and 11 (23%) were worst predictors than the median random signature. More than 90% of random signatures .100 genes were significant outcome predictors. We next derived a metagene, called meta-PCNA, by selecting the 1% genes most positively correlated with proliferation marker PCNA in a compendium of normal tissues expression. Adjusting breast cancer expression data for meta-PCNA abrogated almost entirely the outcome association of published and random signatures. We also found that, in the absence of adjustment, the hazard ratio of outcome association of a signature strongly correlated with meta-PCNA (R2 = 0.9). This relation also applied to single-gene expression markers. Moreover, .50% of the breast cancer transcriptome was correlated with meta-PCNA. A corollary was that purging cell cycle genes out of a signature failed to rule out the confounding effect of proliferation. Hence, it is questionable to suggest that a mechanism is relevant to human breast cancer from the finding that a gene expression marker for this mechanism predicts human breast cancer outcome, because most markers do. The methods we present help to overcome this problem.</dcterms:abstract>
+        <dc:date>2011-10-20</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dx.plos.org/10.1371/journal.pcbi.1002240</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-28 05:03:45</dcterms:dateSubmitted>
+        <bib:pages>e1002240</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1553-7358">
+        <prism:volume>7</prism:volume>
+        <dc:title>PLoS Computational Biology</dc:title>
+        <dc:identifier>DOI 10.1371/journal.pcbi.1002240</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>PLoS Comput Biol</dcterms:alternative>
+        <dc:identifier>ISSN 1553-7358</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_56">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Venet et al. - 2011 - Most Random Gene Expression Signatures Are Signifi.PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/nrg3833">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>16</prism:volume>
+                <dc:title>Nature Reviews Genetics</dc:title>
+                <dc:identifier>DOI 10.1038/nrg3833</dc:identifier>
+                <prism:number>3</prism:number>
+                <dcterms:alternative>Nat Rev Genet</dcterms:alternative>
+                <dc:identifier>ISSN 1471-0056, 1471-0064</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stegle</foaf:surname>
+                        <foaf:givenName>Oliver</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Teichmann</foaf:surname>
+                        <foaf:givenName>Sarah A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marioni</foaf:surname>
+                        <foaf:givenName>John C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_58"/>
+        <dc:title>Computational and analytical challenges in single-cell transcriptomics</dc:title>
+        <dcterms:abstract>The development of high-throughput RNA sequencing (RNA-seq) at the single-cell level has already led to profound new discoveries in biology, ranging from the identification of novel cell types to the study of global patterns of stochastic gene expression. Alongside the technological breakthroughs that have facilitated the large-scale generation of single-cell transcriptomic data, it is important to consider the specific computational and analytical challenges that still have to be overcome. Although some tools for analysing RNA-seq data from bulk cell populations can be readily applied to single-cell RNA-seq data, many new computational strategies are required to fully exploit this data type and to enable a comprehensive yet detailed study of gene expression at the single-cell level.</dcterms:abstract>
+        <dc:date>3/2015</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.nature.com/articles/nrg3833</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-31 09:13:36</dcterms:dateSubmitted>
+        <bib:pages>133-145</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_58">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Stegle et al. - 2015 - Computational and analytical challenges in single-.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.future-science.com/doi/10.2144/000112950">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0736-6205,%201940-9818"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kong</foaf:surname>
+                        <foaf:givenName>Wei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vanderburg</foaf:surname>
+                        <foaf:givenName>Charles R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gunshin</foaf:surname>
+                        <foaf:givenName>Hiromi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rogers</foaf:surname>
+                        <foaf:givenName>Jack T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Xudong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_60"/>
+        <dc:title>A review of independent component analysis application to microarray gene expression data</dc:title>
+        <dc:date>11/2008</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.future-science.com/doi/10.2144/000112950</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-01-31 09:55:58</dcterms:dateSubmitted>
+        <bib:pages>501-520</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0736-6205,%201940-9818">
+        <prism:volume>45</prism:volume>
+        <dc:title>BioTechniques</dc:title>
+        <dc:identifier>DOI 10.2144/000112950</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>BioTechniques</dcterms:alternative>
+        <dc:identifier>ISSN 0736-6205, 1940-9818</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_60">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Kong et al. - 2008 - A review of independent component analysis applica.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://ieeexplore.ieee.org/document/761722/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1045-9227,%201941-0093"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hyvarinen</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_62"/>
+        <dc:title>Fast and robust fixed-point algorithms for independent component analysis</dc:title>
+        <dcterms:abstract>Independent component analysis (ICA) is a statistical method for transforming an observed multidimensional random vector into components that are statistically as independent from each other as possible. In this paper, we use a combination of two different approaches for linear ICA: Comon’s information-theoretic approach and the projection pursuit approach. Using maximum entropy approximations of differential entropy, we introduce a family of new contrast (objective) functions for ICA. These contrast functions enable both the estimation of the whole decomposition by minimizing mutual information, and estimation of individual independent components as projection pursuit directions. The statistical properties of the estimators based on such contrast functions are analyzed under the assumption of the linear mixture model, and it is shown how to choose contrast functions that are robust and/or of minimum variance. Finally, we introduce simple ﬁxed-point algorithms for practical optimization of the contrast functions. These algorithms optimize the contrast functions very fast and reliably.</dcterms:abstract>
+        <dc:date>5/1999</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/761722/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-01 10:17:10</dcterms:dateSubmitted>
+        <bib:pages>626-634</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1045-9227,%201941-0093">
+        <prism:volume>10</prism:volume>
+        <dc:title>IEEE Transactions on Neural Networks</dc:title>
+        <dc:identifier>DOI 10.1109/72.761722</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>IEEE Trans. Neural Netw.</dcterms:alternative>
+        <dc:identifier>ISSN 1045-9227, 1941-0093</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_62">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hyvarinen - 1999 - Fast and robust fixed-point algorithms for indepen.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Data rdf:about="https://CRAN.R-project.org/package=ica">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Helwig</foaf:surname>
+                        <foaf:givenName>Nathaniel E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <prism:edition>R package version 1.0-2</prism:edition>
+        <dc:title>ica: Independent Component Analysis</dc:title>
+        <dc:date>2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://CRAN.R-project.org/package=ica</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:Data>
+    <bib:Data rdf:about="#item_66">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maechler</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rousseeuw</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Struyf</foaf:surname>
+                        <foaf:givenName>Anja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hubert</foaf:surname>
+                        <foaf:givenName>Mia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hornik</foaf:surname>
+                        <foaf:givenName>Kurt</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <prism:edition>R package version 2.1.0</prism:edition>
+        <dc:title>cluster: Cluster Analysis Basics and Extensions</dc:title>
+        <dc:date>2019</dc:date>
+    </bib:Data>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0092867418301065">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>172</prism:volume>
+                <dc:title>Cell</dc:title>
+                <dc:identifier>DOI 10.1016/j.cell.2018.01.029</dc:identifier>
+                <prism:number>4</prism:number>
+                <dcterms:alternative>Cell</dcterms:alternative>
+                <dc:identifier>ISSN 00928674</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lambert</foaf:surname>
+                        <foaf:givenName>Samuel A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jolma</foaf:surname>
+                        <foaf:givenName>Arttu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Campitelli</foaf:surname>
+                        <foaf:givenName>Laura F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Das</foaf:surname>
+                        <foaf:givenName>Pratyush K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yin</foaf:surname>
+                        <foaf:givenName>Yimeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Albu</foaf:surname>
+                        <foaf:givenName>Mihai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Xiaoting</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taipale</foaf:surname>
+                        <foaf:givenName>Jussi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hughes</foaf:surname>
+                        <foaf:givenName>Timothy R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weirauch</foaf:surname>
+                        <foaf:givenName>Matthew T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_67"/>
+        <dc:title>The Human Transcription Factors</dc:title>
+        <dc:date>02/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0092867418301065</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-05 08:10:29</dcterms:dateSubmitted>
+        <bib:pages>650-665</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_67">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Lambert et al. - 2018 - The Human Transcription Factors.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/s41598-017-03994-1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2045-2322"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yamamoto</foaf:surname>
+                        <foaf:givenName>Seiji</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muramatsu</foaf:surname>
+                        <foaf:givenName>Masashi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Azuma</foaf:surname>
+                        <foaf:givenName>Erika</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ikutani</foaf:surname>
+                        <foaf:givenName>Masashi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nagai</foaf:surname>
+                        <foaf:givenName>Yoshinori</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sagara</foaf:surname>
+                        <foaf:givenName>Hiroshi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koo</foaf:surname>
+                        <foaf:givenName>Bon-Nyeo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kita</foaf:surname>
+                        <foaf:givenName>Satomi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>O’Donnell</foaf:surname>
+                        <foaf:givenName>Erin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Osawa</foaf:surname>
+                        <foaf:givenName>Tsuyoshi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takahashi</foaf:surname>
+                        <foaf:givenName>Hiroyuki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takano</foaf:surname>
+                        <foaf:givenName>Ken-ichi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dohmoto</foaf:surname>
+                        <foaf:givenName>Mitsuko</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sugimori</foaf:surname>
+                        <foaf:givenName>Michiya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Usui</foaf:surname>
+                        <foaf:givenName>Isao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Watanabe</foaf:surname>
+                        <foaf:givenName>Yasuhide</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hatakeyama</foaf:surname>
+                        <foaf:givenName>Noboru</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iwamoto</foaf:surname>
+                        <foaf:givenName>Takahiro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Komuro</foaf:surname>
+                        <foaf:givenName>Issei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Takatsu</foaf:surname>
+                        <foaf:givenName>Kiyoshi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tobe</foaf:surname>
+                        <foaf:givenName>Kazuyuki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Niida</foaf:surname>
+                        <foaf:givenName>Shumpei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Matsuda</foaf:surname>
+                        <foaf:givenName>Naoyuki</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shibuya</foaf:surname>
+                        <foaf:givenName>Masabumi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sasahara</foaf:surname>
+                        <foaf:givenName>Masakiyo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_69"/>
+        <dc:title>A subset of cerebrovascular pericytes originates from mature macrophages in the very early phase of vascular development in CNS</dc:title>
+        <dc:date>12/2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/articles/s41598-017-03994-1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-08 06:21:30</dcterms:dateSubmitted>
+        <bib:pages>3855</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2045-2322">
+        <prism:volume>7</prism:volume>
+        <dc:title>Scientific Reports</dc:title>
+        <dc:identifier>DOI 10.1038/s41598-017-03994-1</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Sci Rep</dcterms:alternative>
+        <dc:identifier>ISSN 2045-2322</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_69">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Yamamoto et al. - 2017 - A subset of cerebrovascular pericytes originates f.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://f1000research.com/articles/5-2122/v2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2046-1402"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lun</foaf:surname>
+                        <foaf:givenName>Aaron T.L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCarthy</foaf:surname>
+                        <foaf:givenName>Davis J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marioni</foaf:surname>
+                        <foaf:givenName>John C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_73"/>
+        <dc:title>A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor</dc:title>
+        <dcterms:abstract>Single-cell RNA sequencing (scRNA-seq) is widely used to profile the transcriptome of individual cells. This provides biological resolution that cannot be matched by bulk RNA sequencing, at the cost of increased technical noise and data complexity. The differences between scRNA-seq and bulk RNA-seq data mean that the analysis of the former cannot be performed by recycling bioinformatics pipelines for the latter. Rather, dedicated single-cell methods are required at various steps to exploit the cellular resolution while accounting for technical noise. This article describes a computational workflow for low-level analyses of scRNA-seq data, based primarily on software packages from the open-source Bioconductor project. It covers basic steps including quality control, data exploration and normalization, as well as more complex procedures such as cell cycle phase assignment, identification of highly variable and correlated genes, clustering into subpopulations and marker gene detection. Analyses were demonstrated on gene-level count data from several publicly available datasets involving haematopoietic stem cells, brain-derived cells, T-helper cells and mouse embryonic stem cells. This will provide a range of usage scenarios from which readers can construct their own analysis pipelines.</dcterms:abstract>
+        <dc:date>2016-10-31</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://f1000research.com/articles/5-2122/v2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-10 11:05:01</dcterms:dateSubmitted>
+        <bib:pages>2122</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2046-1402">
+        <prism:volume>5</prism:volume>
+        <dc:title>F1000Research</dc:title>
+        <dc:identifier>DOI 10.12688/f1000research.9501.2</dc:identifier>
+        <dcterms:alternative>F1000Res</dcterms:alternative>
+        <dc:identifier>ISSN 2046-1402</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_73">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://f1000research.com/articles/5-2122/v2/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-10 11:05:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.jstatsoft.org/v33/i01/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1548-7660"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Friedman</foaf:surname>
+                        <foaf:givenName>Jerome</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hastie</foaf:surname>
+                        <foaf:givenName>Trevor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tibshirani</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_74"/>
+        <dc:title>Regularization Paths for Generalized Linear Models via Coordinate Descent</dc:title>
+        <dcterms:abstract>We develop fast algorithms for estimation of generalized linear models with convex penalties. The models include linear regression, two-class logistic regression, and multinomial regression problems while the penalties include 1 (the lasso), 2 (ridge regression) and mixtures of the two (the elastic net). The algorithms use cyclical coordinate descent, computed along a regularization path. The methods can handle large problems and can also deal eﬃciently with sparse features. In comparative timings we ﬁnd that the new algorithms are considerably faster than competing methods.</dcterms:abstract>
+        <dc:date>2010</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.jstatsoft.org/v33/i01/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-10 11:18:11</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1548-7660">
+        <prism:volume>33</prism:volume>
+        <dc:title>Journal of Statistical Software</dc:title>
+        <dc:identifier>DOI 10.18637/jss.v033.i01</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>J. Stat. Soft.</dcterms:alternative>
+        <dc:identifier>ISSN 1548-7660</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_74">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Friedman et al. - 2010 - Regularization Paths for Generalized Linear Models.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Data rdf:about="https://CRAN.R-project.org/package=caret">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kuhn</foaf:surname>
+                        <foaf:givenName>Max</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <prism:edition>R package version 6.0-84</prism:edition>
+        <dc:title>caret: Classification and Regression Training</dc:title>
+        <dc:date>2019</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://CRAN.R-project.org/package=caret</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:Data>
+    <bib:Article rdf:about="https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btw313">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>32</prism:volume>
+                <dc:title>Bioinformatics</dc:title>
+                <dc:identifier>DOI 10.1093/bioinformatics/btw313</dc:identifier>
+                <prism:number>18</prism:number>
+                <dcterms:alternative>Bioinformatics</dcterms:alternative>
+                <dc:identifier>ISSN 1367-4803, 1460-2059</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gu</foaf:surname>
+                        <foaf:givenName>Zuguang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eils</foaf:surname>
+                        <foaf:givenName>Roland</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schlesner</foaf:surname>
+                        <foaf:givenName>Matthias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_77"/>
+        <dc:title>Complex heatmaps reveal patterns and correlations in multidimensional genomic data</dc:title>
+        <dcterms:abstract>Summary: Parallel heatmaps with carefully designed annotation graphics are powerful for efﬁcient visualization of patterns and relationships among high dimensional genomic data. Here we present the ComplexHeatmap package that provides rich functionalities for customizing heatmaps, arranging multiple parallel heatmaps and including user-deﬁned annotation graphics. We demonstrate the power of ComplexHeatmap to easily reveal patterns and correlations among multiple sources of information with four real-world datasets.</dcterms:abstract>
+        <dc:date>2016-09-15</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btw313</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-10 11:26:03</dcterms:dateSubmitted>
+        <bib:pages>2847-2849</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_77">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Gu et al. - 2016 - Complex heatmaps reveal patterns and correlations .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.liebertpub.com/doi/10.1089/omi.2011.0118">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1536-2310,%201557-8100"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Guangchuang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Li-Gen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenName>Yanyan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenName>Qing-Yu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_79"/>
+        <dc:title>clusterProfiler: an R Package for Comparing Biological Themes Among Gene Clusters</dc:title>
+        <dc:date>05/2012</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>clusterProfiler</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.liebertpub.com/doi/10.1089/omi.2011.0118</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-10 11:30:12</dcterms:dateSubmitted>
+        <bib:pages>284-287</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1536-2310,%201557-8100">
+        <prism:volume>16</prism:volume>
+        <dc:title>OMICS: A Journal of Integrative Biology</dc:title>
+        <dc:identifier>DOI 10.1089/omi.2011.0118</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>OMICS: A Journal of Integrative Biology</dcterms:alternative>
+        <dc:identifier>ISSN 1536-2310, 1557-8100</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_79">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Yu et al. - 2012 - clusterProfiler an R Package for Comparing Biolog.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_82">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Csardi</foaf:surname>
+                        <foaf:givenName>Gabor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nepusz</foaf:surname>
+                        <foaf:givenName>Tamas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_81"/>
+        <dc:title>The igraph software package for complex network research</dc:title>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>9</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_81">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Csardi and Nepusz - The igraph software package for complex network re.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/s41592-018-0229-2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>15</prism:volume>
+                <dc:title>Nature Methods</dc:title>
+                <dc:identifier>DOI 10.1038/s41592-018-0229-2</dc:identifier>
+                <prism:number>12</prism:number>
+                <dcterms:alternative>Nat Methods</dcterms:alternative>
+                <dc:identifier>ISSN 1548-7091, 1548-7105</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lopez</foaf:surname>
+                        <foaf:givenName>Romain</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Regier</foaf:surname>
+                        <foaf:givenName>Jeffrey</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cole</foaf:surname>
+                        <foaf:givenName>Michael B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jordan</foaf:surname>
+                        <foaf:givenName>Michael I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yosef</foaf:surname>
+                        <foaf:givenName>Nir</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_83"/>
+        <dc:title>Deep generative modeling for single-cell transcriptomics</dc:title>
+        <dc:date>12/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/articles/s41592-018-0229-2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-10 13:55:33</dcterms:dateSubmitted>
+        <bib:pages>1053-1058</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_83">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Lopez et al. - 2018 - Deep generative modeling for single-cell transcrip.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btq227">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1460-2059,%201367-4803"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hochreiter</foaf:surname>
+                        <foaf:givenName>Sepp</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bodenhofer</foaf:surname>
+                        <foaf:givenName>Ulrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heusel</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mayr</foaf:surname>
+                        <foaf:givenName>Andreas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mitterecker</foaf:surname>
+                        <foaf:givenName>Andreas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kasim</foaf:surname>
+                        <foaf:givenName>Adetayo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khamiakova</foaf:surname>
+                        <foaf:givenName>Tatsiana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Van Sanden</foaf:surname>
+                        <foaf:givenName>Suzy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenName>Dan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Talloen</foaf:surname>
+                        <foaf:givenName>Willem</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bijnens</foaf:surname>
+                        <foaf:givenName>Luc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Göhlmann</foaf:surname>
+                        <foaf:givenName>Hinrich W. H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shkedy</foaf:surname>
+                        <foaf:givenName>Ziv</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clevert</foaf:surname>
+                        <foaf:givenName>Djork-Arné</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_85"/>
+        <dc:title>FABIA: factor analysis for bicluster acquisition</dc:title>
+        <dcterms:abstract>Motivation: Biclustering of transcriptomic data groups genes and samples simultaneously. It is emerging as a standard tool for extracting knowledge from gene expression measurements. We propose a novel generative approach for biclustering called ‘FABIA: Factor Analysis for Bicluster Acquisition’. FABIA is based on a multiplicative model, which accounts for linear dependencies between gene expression and conditions, and also captures heavytailed distributions as observed in real-world transcriptomic data. The generative framework allows to utilize well-founded model selection methods and to apply Bayesian techniques.</dcterms:abstract>
+        <dc:date>2010-6-15</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>FABIA</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btq227</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-10 14:04:09</dcterms:dateSubmitted>
+        <bib:pages>1520-1527</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1460-2059,%201367-4803">
+        <prism:volume>26</prism:volume>
+        <dc:title>Bioinformatics</dc:title>
+        <dc:identifier>DOI 10.1093/bioinformatics/btq227</dc:identifier>
+        <prism:number>12</prism:number>
+        <dc:identifier>ISSN 1460-2059, 1367-4803</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_85">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hochreiter et al. - 2010 - FABIA factor analysis for bicluster acquisition.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://academic.oup.com/bioinformatics/article/33/14/i59/3953934">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>33</prism:volume>
+                <dc:title>Bioinformatics</dc:title>
+                <dc:identifier>DOI 10.1093/bioinformatics/btx226</dc:identifier>
+                <prism:number>14</prism:number>
+                <dc:identifier>ISSN 1367-4803, 1460-2059</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clevert</foaf:surname>
+                        <foaf:givenName>Djork-Arné</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Unterthiner</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Povysil</foaf:surname>
+                        <foaf:givenName>Gundula</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hochreiter</foaf:surname>
+                        <foaf:givenName>Sepp</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_88"/>
+        <dc:title>Rectified factor networks for biclustering of omics data</dc:title>
+        <dcterms:abstract>Motivation: Biclustering has become a major tool for analyzing large datasets given as matrix of samples times features and has been successfully applied in life sciences and e-commerce for drug design and recommender systems, respectively. Factor Analysis for Bicluster Acquisition (FABIA), one of the most successful biclustering methods, is a generative model that represents each bicluster by two sparse membership vectors: one for the samples and one for the features. However, FABIA is restricted to about 20 code units because of the high computational complexity of computing the posterior. Furthermore, code units are sometimes insufﬁciently decorrelated and sample membership is difﬁcult to determine. We propose to use the recently introduced unsupervised Deep Learning approach Rectiﬁed Factor Networks (RFNs) to overcome the drawbacks of existing biclustering methods. RFNs efﬁciently construct very sparse, non-linear, high-dimensional representations of the input via their posterior means. RFN learning is a generalized alternating minimization algorithm based on the posterior regularization method which enforces non-negative and normalized posterior means. Each code unit represents a bicluster, where samples for which the code unit is active belong to the bicluster and features that have activating weights to the code unit belong to the bicluster.</dcterms:abstract>
+        <dc:date>2017-07-15</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/bioinformatics/article/33/14/i59/3953934</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-10 14:06:10</dcterms:dateSubmitted>
+        <bib:pages>i59-i66</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_88">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Clevert et al. - 2017 - Rectified factor networks for biclustering of omic.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_91">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Durif</foaf:surname>
+                        <foaf:givenName>Ghislain</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Modolo</foaf:surname>
+                        <foaf:givenName>Laurent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mold</foaf:surname>
+                        <foaf:givenName>Jeff E</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lambert-Lacroix</foaf:surname>
+                        <foaf:givenName>Sophie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Picard</foaf:surname>
+                        <foaf:givenName>Franck</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_90"/>
+        <dc:title>Probabilistic count matrix factorization for single cell expression data analysis</dc:title>
+        <dcterms:abstract>Motivation: The development of high-throughput single-cell sequencing technologies now allows the investigation of the population diversity of cellular transcriptomes. The expression dynamics (gene-to-gene variability) can be quantiﬁed more accurately, thanks to the measurement of lowly expressed genes. In addition, the cell-to-cell variability is high, with a low proportion of cells expressing the same genes at the same time/level. Those emerging patterns appear to be very challenging from the statistical point of view, especially to represent a summarized view of singlecell expression data. Principal component analysis (PCA) is a most powerful tool for high dimensional data representation, by searching for latent directions catching the most variability in the data. Unfortunately, classical PCA is based on Euclidean distance and projections that poorly work in presence of over-dispersed count data with dropout events like single-cell expression data.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>22</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_90">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Durif et al. - Probabilistic count matrix factorization for singl.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_93">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1802.06931v2</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Wei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stephens</foaf:surname>
+                        <foaf:givenName>Matthew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_92"/>
+        <dc:title>Empirical Bayes Matrix Factorization</dc:title>
+        <dcterms:abstract>Matrix factorization methods – including Factor analysis (FA), and Principal Components Analysis (PCA) – are widely used for inferring and summarizing structure in multivariate data. Many matrix factorization methods exist, corresponding to diﬀerent assumptions on the elements of the underlying matrix factors. For example, many recent methods use a penalty or prior distribution to achieve sparse representations (“Sparse FA/PCA”). Here we introduce a general Empirical Bayes approach to matrix factorization (EBMF), whose key feature is that it uses the observed data to estimate prior distributions on matrix elements. We derive a correspondingly-general variational ﬁtting algorithm, which reduces ﬁtting EBMF to solving a simpler problem – the so-called “normal means” problem. We implement this general algorithm, but focus particular attention on the use of sparsity-inducing priors that are unimodal at 0. This yields a sparse EBMF approach – essentially a version of sparse FA/PCA – that automatically adapts the amount of sparsity to the data. We demonstrate the beneﬁts of our approach through both numerical comparisons with competing methods and through analysis of data from the GTEx (Genotype Tissue Expression) project on genetic associations across 44 human tissues. In numerical comparisons EBMF often provides more accurate inferences than other methods. In the GTEx data, EBMF identiﬁes interpretable structure that concords with known relationships among human tissues. Software implementing our approach is available at https://github.com/stephenslab/flashr.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_92">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Wang and Stephens - Empirical Bayes Matrix Factorization.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://elifesciences.org/articles/43803">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2050-084X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kotliar</foaf:surname>
+                        <foaf:givenName>Dylan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Veres</foaf:surname>
+                        <foaf:givenName>Adrian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nagy</foaf:surname>
+                        <foaf:givenName>M Aurel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tabrizi</foaf:surname>
+                        <foaf:givenName>Shervin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hodis</foaf:surname>
+                        <foaf:givenName>Eran</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Melton</foaf:surname>
+                        <foaf:givenName>Douglas A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sabeti</foaf:surname>
+                        <foaf:givenName>Pardis C</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_95"/>
+        <dc:title>Identifying gene expression programs of cell-type identity and cellular activity with single-cell RNA-Seq</dc:title>
+        <dcterms:abstract>Identifying gene expression programs underlying both cell-type identity and cellular activities (e.g. life-cycle processes, responses to environmental cues) is crucial for understanding the organization of cells and tissues. Although single-cell RNA-Seq (scRNA-Seq) can quantify transcripts in individual cells, each cell’s expression profile may be a mixture of both types of programs, making them difficult to disentangle. Here, we benchmark and enhance the use of matrix factorization to solve this problem. We show with simulations that a method we call consensus non-negative matrix factorization (cNMF) accurately infers identity and activity programs, including their relative contributions in each cell. To illustrate the insights this approach enables, we apply it to published brain organoid and visual cortex scRNA-Seq datasets; cNMF refines cell types and identifies both expected (e.g. cell cycle and hypoxia) and novel activity programs, including programs that may underlie a neurosecretory phenotype and synaptogenesis.</dcterms:abstract>
+        <dc:date>2019-07-08</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://elifesciences.org/articles/43803</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-15 13:01:00</dcterms:dateSubmitted>
+        <bib:pages>e43803</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2050-084X">
+        <prism:volume>8</prism:volume>
+        <dc:title>eLife</dc:title>
+        <dc:identifier>DOI 10.7554/eLife.43803</dc:identifier>
+        <dc:identifier>ISSN 2050-084X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_95">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNDM4MDMvZWxpZmUtNDM4MDMtdjIucGRm/elife-43803-v2.pdf?_hash=CnTMfxfZNR6ZVVpVx4U7am%2BMYcNnu%2BMSSu0uy%2FTLcoU%3D</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-15 13:01:31</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S009286741731245X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>171</prism:volume>
+                <dc:title>Cell</dc:title>
+                <dc:identifier>DOI 10.1016/j.cell.2017.10.023</dc:identifier>
+                <prism:number>6</prism:number>
+                <dcterms:alternative>Cell</dcterms:alternative>
+                <dc:identifier>ISSN 00928674</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cleary</foaf:surname>
+                        <foaf:givenName>Brian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cong</foaf:surname>
+                        <foaf:givenName>Le</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheung</foaf:surname>
+                        <foaf:givenName>Anthea</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lander</foaf:surname>
+                        <foaf:givenName>Eric S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Regev</foaf:surname>
+                        <foaf:givenName>Aviv</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_99"/>
+        <dc:title>Efficient Generation of Transcriptomic Profiles by Random Composite Measurements</dc:title>
+        <dcterms:abstract>RNA proﬁles are an informative phenotype of cellular and tissue states but can be costly to generate at massive scale. Here, we describe how gene expression levels can be efﬁciently acquired with random composite measurements—in which abundances are combined in a random weighted sum. We show (1) that the similarity between pairs of expression proﬁles can be approximated with very few composite measurements; (2) that by leveraging sparse, modular representations of gene expression, we can use random composite measurements to recover high-dimensional gene expression levels (with 100 times fewer measurements than genes); and (3) that it is possible to blindly recover gene expression from composite measurements, even without access to training data. Our results suggest new compressive modalities as a foundation for massive scaling in high-throughput measurements and new insights into the interpretation of high-dimensional data.</dcterms:abstract>
+        <dc:date>11/2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S009286741731245X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-16 04:22:49</dcterms:dateSubmitted>
+        <bib:pages>1424-1436.e18</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_99">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Cleary et al. - 2017 - Efficient Generation of Transcriptomic Profiles by.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_104">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>11</prism:volume>
+                <dc:title>Journal of Machine Learning Research</dc:title>
+                <dcterms:alternative>Mach Lern Res</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mairal</foaf:surname>
+                        <foaf:givenName>Julien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bach</foaf:surname>
+                        <foaf:givenName>Francis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ponce</foaf:surname>
+                        <foaf:givenName>Jean</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sapiro</foaf:surname>
+                        <foaf:givenName>Guillermo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_103"/>
+        <dc:title>Online Learning for Matrix Factorization and Sparse Coding</dc:title>
+        <dcterms:abstract>Sparse coding—that is, modelling data vectors as sparse linear combinations of basis elements—is widely used in machine learning, neuroscience, signal processing, and statistics. This paper focuses on the large-scale matrix factorization problem that consists of learning the basis set in order to adapt it to speciﬁc data. Variations of this problem include dictionary learning in signal processing, non-negative matrix factorization and sparse principal component analysis. In this paper, we propose to address these tasks with a new online optimization algorithm, based on stochastic approximations, which scales up gracefully to large data sets with millions of training samples, and extends naturally to various matrix factorization formulations, making it suitable for a wide range of learning problems. A proof of convergence is presented, along with experiments with natural images and genomic data demonstrating that it leads to state-of-the-art performance in terms of speed and optimization for both small and large data sets.</dcterms:abstract>
+        <dc:date>2010-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>19-60</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_103">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Mairal et al. - Online Learning for Matrix Factorization and Spars.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://academic.oup.com/biostatistics/article-lookup/doi/10.1093/biostatistics/kxp008">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1465-4644,%201468-4357"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Witten</foaf:surname>
+                        <foaf:givenName>D. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tibshirani</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hastie</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_105"/>
+        <dc:title>A penalized matrix decomposition, with applications to sparse principal components and canonical correlation analysis</dc:title>
+        <dc:date>2009-07-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/biostatistics/article-lookup/doi/10.1093/biostatistics/kxp008</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-16 08:33:38</dcterms:dateSubmitted>
+        <bib:pages>515-534</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1465-4644,%201468-4357">
+        <prism:volume>10</prism:volume>
+        <dc:title>Biostatistics</dc:title>
+        <dc:identifier>DOI 10.1093/biostatistics/kxp008</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Biostatistics</dcterms:alternative>
+        <dc:identifier>ISSN 1465-4644, 1468-4357</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_105">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Witten et al. - 2009 - A penalized matrix decomposition, with application.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-60558-205-4">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-60558-205-4</dc:identifier>
+                <dc:title>Proceedings of the 25th international conference on Machine learning - ICML '08</dc:title>
+                <dc:identifier>DOI 10.1145/1390156.1390267</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Helsinki, Finland</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ACM Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Salakhutdinov</foaf:surname>
+                        <foaf:givenName>Ruslan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mnih</foaf:surname>
+                        <foaf:givenName>Andriy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_108"/>
+        <dc:title>Bayesian probabilistic matrix factorization using Markov chain Monte Carlo</dc:title>
+        <dc:date>2008</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://portal.acm.org/citation.cfm?doid=1390156.1390267</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-16 12:40:41</dcterms:dateSubmitted>
+        <bib:pages>880-887</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>the 25th international conference</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_108">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=4F961D37761C4A6460E0FB6C1BC9BD31?doi=10.1.1.149.5261&amp;rep=rep1&amp;type=pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-02-16 12:40:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
