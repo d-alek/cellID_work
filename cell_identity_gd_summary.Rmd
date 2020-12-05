@@ -1,21 +1,15 @@
 ---
 title: "Modular Decomposition of Cell Identity - Summary"
 author: "Aleks Dakic"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: yes
-    keep_md: yes
-  pdf_document:
-    toc: yes
+output: 
+  github_document:
+    toc: true
     toc_depth: 3
-    latex_engine: xelatex
+    pandoc_args: --webtex
 ---
   
 ```{r, echo=FALSE}
 library(knitr)
-library(ggplot2)
-library(cowplot)
 ```
   
 ***  
@@ -52,10 +46,11 @@ In an effort to identify both universal and tissue-specific gene co-expression m
   
 The objective of applying ICA to gene expression data is to find a linear combination of maximally statistically independent latent variables (components or factors) in data, which represent underlying, unobserved processes that drive complex gene expression patterns. We usually think of these underlying processes as joint activity of transcription factors, epigenetic and microenvironmental signalling events. In the context of cell identity, out of these three, the influence of transcription factors is likely the most relevant and in the same time most inferable from single-cell gene expression data. While strict assumption of statistical independence between such latent processes would be unrealistic, we expect that they are relatively independent from each other, and that ICA’s ability to extract “as independent as possible” components from data aligns well with identification of such processes. 
   
-As many other matrix factorisation models, ICA decomposes the expression of gene $i=1,…,P$ in cell $j=1,…,N$ as
-$$ x_{i,j} ≈ \sum_{k=1}^{K} s_{ik} a_{kj} $$
-Here $s_{ik}$ is the contribution of component $k$ to gene $i$ expression (and likewise the contribution of gene $i$ to component $k$, if we rather focus on the component $s_{∙k}$ as a unique gene co-expression pattern in data); $a_{kj}$ is the extent of activation or usage of component $k$ by cell $j$. What is specific to ICA compared to most other matrix decomposition models is that components $s_{∙k}$ are made maximally independent by maximising their non-Gaussianity. This feature gives them more than just decorrelation of Gaussian models and also makes them naturally sparse (Hyvärinen, 2013). We used fastICA algorithm in which non-Gaussianity is measured by negentropy (negative differential entropy), $J(s)=H(z)-H(s)$, which is approximated using 
-$$ J(s)=[E(G(s))-E(G(z))]^2 $$
+As many other matrix factorisation models, ICA decomposes the expression of gene $i=1,...,P$ in cell $j=1,...,N$ as
+                         $$ x_{i,j}=\sum_{k=1}^{K} s_{ik} a_{kj} $$  
+  
+Here $s_{ik}$ is the contribution of component $k$ to gene $i$ expression (and likewise the contribution of gene $i$ to component $k$, if we rather focus on the component $s_{k}$ as a unique gene co-expression pattern in data); $a_{kj}$ is the extent of activation or usage of component $k$ by cell $j$. What is specific to ICA compared to most other matrix decomposition models is that components $s_{k}$ are made maximally independent by maximising their non-Gaussianity. This feature gives them more than just decorrelation of Gaussian models and also makes them naturally sparse (Hyvärinen, 2013). We used fastICA algorithm in which non-Gaussianity is measured by negentropy (negative differential entropy), $J(s)=H(z)-H(s)$, which is approximated using $J(s)=[E(G(s))-E(G(z))]^2$  
+  
 Here $H$ denotes entropy, $G$ is a contrast function – in our case $logcosh()$, and $z$ is a standard normal variable (normal variable with same mean and variance as independent components s – which, in ICA, are centred at zero and normalised to unit variance). The basis for using entropy as a measure non-Gaussianity is a fundamental result of information theory that a Gaussian variable has the largest entropy among all random variables of equal variance. Maximising the above cost function therefore leads to finding independent components with minimum entropy, or maximum concentration on certain value – in ICA, components have a sharp spike at zero, which gives them natural sparsity.
   
 
@@ -77,13 +72,14 @@ The independent components from 100 replications of ICA for each number of compo
 fig2A = "figs/StabilityVsError_copy.png"
 include_graphics(fig2A)
 ```
-**Figure 2.A Relationship between average stability of consensus components and normalised reconstitution error of ICA decomposition.** The left-hand y axis (blue) shows consensus component stability (reproducibility) across 100 ICA runs, measured by the mean silhouette width from the PAM clustering. The right-hand axis (red) shows the normalised reconstitution error of consensus ICA decomposition (solid red line) and that of “non-consensus” ICA initiated with diagonal rotation matrix, instead of random matrix (dotted red line). Normalised reconstitution error of the consensus ICA decomposition is calculated as
-$$ \frac{||X-SA||_2^2}{||X||_2^2} $$
+  
+**Figure 2.A Relationship between average stability of consensus components and normalised reconstitution error of ICA decomposition.** The left-hand y axis (blue) shows consensus component stability (reproducibility) across 100 ICA runs, measured by the mean silhouette width from the PAM clustering. The right-hand axis (red) shows the normalised reconstitution error of consensus ICA decomposition (solid red line) and that of “non-consensus” ICA initiated with diagonal rotation matrix, instead of random matrix (dotted red line). Normalised reconstitution error of the consensus ICA decomposition is calculated as $\frac{||X-SA||_2^2}{||X||_2^2}$  
   
 ```{r, out.width="40%", fig.align="center", echo=FALSE}
 fig2B = "figs/ScreeVsStability_c_copy.png"
 include_graphics(fig2B)
 ```
+  
 **Figure 2.B Stability of individual consensus components and variance accounted for (VAF) by individual components.** The right-hand y axis (blue) shows stability (reproducibility) of individual consensus components across 100 ICA runs, measured by the cluster silhouette width from the PAM clusteriung. The left-hand axis (pink and black) compares VAFs of individual components, based on ICA initiated with diagonal rotation matrix (black bars), and VAFs of individual components, when ICA is run on 10 permuted data matrices and also initiated with diagonal rotation matrix (pink line). Values of silhouette scores (blue) and VAFs (black/pink) are ordered independently in descending order. VAFs are simply a squared and normalised Euclidean norms of component vectors in matrix A (Figure 1.).  
   
 The analysis indicates that 100 components offers the best compromise between the two (**Figure 2.A, B**). Figure 2.A also shows that, not surprisingly, the reconstitution error of a non-consensus solution (diagonal) decreases linearly with the increase in dimensionality of latent space (broken red line), but the stability of the consensus solution is sharply decreasing. **Figure 2.B** shows cluster-specific silhouette width scores behind this decline, and compares scree-like plots for real and permuted data. 
@@ -97,7 +93,7 @@ include_graphics(fig3)
   
 **Figure 3. Proportion of variance in gene expression (first row) and in ICA components scores (second row) explained by the experimental factors or by the cell type annotations.** Variance explained is calculated and plotted as R^2^ from regressing each gene expression or each ICA component score against experimental factors. Plots show the distribution of R^2^ for each factor across all genes or all components scores.
   
-**Figure 3.** shows that generally higher proportions of individual genes than ICA components are associated with technical factors to some extent. This indicates that genes associated with technical factors are sequestered in few ICA components. Of note, some factors such as plate and mouse id are expected to be inseparable from biology (cell type annotation) by the experimental design, as cell pre-selections from individual organs were sorted onto plates and individual mice did not contribute to all cell types. We chose not to remove any components from the downstream analyses because some factors such as total counts and total number of genes detected per cell could also be driven by characteristics of cell types. We just note that the component 73 had close to 30% of variance explained by sex, and components 2,6,7,8,14,17,18,20,21,47,70,71 have between 20 and 35% of variance explained by total number of genes detected per cell.  
+**Figure 3.** shows that generally higher proportions of individual genes than ICA components are associated with technical factors to some extent. This indicates that genes associated with technical factors are sequestered in few ICA components. Of note, some factors such as plate and mouse id are expected to be inseparable from biology (cell type annotation) by the experimental design, as cell pre-selections from individual organs were sorted onto plates and individual mice did not contribute to all cell types. We chose not to remove any components from the downstream analyses because some factors such as total counts and total number of genes detected per cell could also be driven by characteristics of cell types. We just note that the component 73 had close to 30% of variance explained by sex, and components 2, 7, 14, 17, 18, 20, 21, 47, 70, 71 have between 20 and 35% of variance explained by total number of genes detected per cell.  
   
   
 ***  
@@ -110,6 +106,7 @@ Cell scores in ICA-derived low-dimensional latent space reflect how strongly is 
 fig4 = "figs/A_heatmaps/all.celltypes.clust_copy.png"
 include_graphics(fig4)
 ```
+  
 **Figure 4. Heatmap of ICA-derived cell scores (module activities) averaged per cell types.**  
   
 For a more granular way to visualise activities of components across individual cells, we can use two-dimensional UMAP space. Figures below first display clustering of cell types and tissues of origins in the UMAP space, followed by visualisation of activities of selected components (modules).
@@ -118,6 +115,7 @@ For a more granular way to visualise activities of components across individual 
 fig5 = "figs/umaps/allcellstissues_umap_ica.png"
 include_graphics(fig5)
 ```
+  
 **Figure 5. UMAP visualisation of all cells, coloured by cell type (left) and tissues of origin (right).**  
   
   
@@ -172,6 +170,7 @@ The heatmaps below summarise the results of such analysis when classifying sever
 fig9 = "figs/beta_heatmaps/Myelo.1.betas.clust_copy.png"
 include_graphics(fig9)
 ```
+  
 **Figure 9. Heatmap of active coefficients corresponding to ICA-derived modules selected by the sparse glmnet model for myeloid cell types.** Non-zero coefficients indicate to which extent is a particular component (module) used to explain a cell identity.  
   
   
@@ -179,6 +178,7 @@ include_graphics(fig9)
 fig10 = "figs/beta_heatmaps/Myelo.4.betas.clust_copy.png"
 include_graphics(fig10)
 ```
+  
 **Figure 10. Heatmap of active coefficients corresponding to ICE-derived modules selected by the sparse glmnet model for macrophages across 7 different tissues.** Non-zero coefficients indicate to which extent is a particular component (module) used to explain a cell identity.  
   
   
@@ -196,6 +196,7 @@ The fitted models were then compared for their sparsity and the predictive perfo
 fig11 = "figs/my1.png"
 include_graphics(fig11)
 ```
+  
 **Figure 11. Model selection for myeloid cell types (global cell type modules).** Two different types of models were compared – those based on *ICA-derived cell scores* (left) and those based on individual *gene expressions* as explanatory variables (right). Models were also assessed on two different data normalisations – those based on *spike-in factors only* and those based *'sum' (deconvolution) factors*. First panel shows model *sparsity* i.e. number of non-zero coefficients. Second panel shows models’ predictive performance in a form of *per class (cell type) F1 statistics and overall Kappa statistics* (precision and recall based statistics). Third panel shows predictive performance in a form of *per class (cell type) balanced accuracy and overall accuracy statistics* (sensitivity and specificity based statistics). The columns with numbers mark the overall method of choice: *Elastic net* models with *Deviance* used as a measure of fit during cross-validation.  
   
   
@@ -203,6 +204,7 @@ include_graphics(fig11)
 fig12 = "figs/my2.png"
 include_graphics(fig12)
 ```
+  
 **Figure 12. Model selection for macrophages across different tissues (tissue-specific modules).** Two different types of models were compared – those based on *ICA-derived cell scores* (left) and those based on individual *gene expressions* as explanatory variables (right). Models were also assessed on two different data normalisations – those based on *spike-in factors only* and those based *'sum' (deconvolution) factors*. First panel shows model *sparsity* i.e. number of non-zero coefficients. Second panel shows models’ predictive performance in a form of *per class (cell type) F1 statistics and overall Kappa statistics* (precision and recall based statistics). Third panel shows predictive performance in a form of *per class (cell type) balanced accuracy and overall accuracy statistics* (sensitivity and specificity based statistics). The columns with numbers mark the overall method of choice: *Elastic net* models with *Deviance* used as a measure of fit during cross-validation.   
   
   
@@ -218,6 +220,7 @@ We now turn our attention to biological content of modules associated with the i
 fig13 = "figs/Module.sizes.weight.reuse.SD_copy.png"
 include_graphics(fig13)
 ```
+  
 **Figure 13. Comparative analysis of module characteristics at different levels of cut-off stringency.** Each row shows different cut-off levels applied on gene weights when deciding on which genes are sufficiently associated with a component and therefore form a module. Cut-offs applied were 2, 3, and 4 standard deviations from zero. Each column shows different module characteristic – size (number of genes in a module), weight (proportion of component’s entire weight capured i.e. sum of squared gene weights), and gene reuse (in how many modules individual genes participate). Blue insets refers to the total number of unique genes present in all 100 modules at each levels of cut-off stringency and, in brackets, the average gene reuse factor i.e. in how many modules each unique gene participates on average.  
   
   
@@ -239,6 +242,7 @@ fig15 = c("figs/module_GE_dots/Myelo.4.module.52_copy.png",
           "figs/module_GE_dots/Myelo.4.module.63_copy.png")
 knitr::include_graphics(fig15)
 ```
+  
 **Figure 15. Module 52 and 63 gene expression pattern in macrophages across 7 organs** - Module 52 being particularly active in *bone marrow macrophages* and 63 in *spleen macrophages*. Dot size represents the proportion of cells in each category showing detectable gene expression, dot colour intensity represents average gene expression. Genes names in larger, positive tail of the component (module) are in dark blue, those in smaller, negative tail are written in red (4sd cut-off).  
   
   
@@ -259,6 +263,7 @@ Figures 17-19. summarise Reactome gene set enrichment analyses for some of the a
 fig17 = "figs/module_ora_gsea_tf/global.reactome.ora.ma.mi_copy.png"
 include_graphics(fig17)
 ```
+  
 **Figure 17. Reactome gene set overrepresentation analysis.** For this purpose, each module is split in a major (M) and minor (m) submodule, containing genes with positive and negative weights, respectively. ICA components are reoriented so that the heavier tail of each component is positive. In this way the submodule with positive weights is always larger submodule, hence called major (and conversly for minor submodules).  
   
   
@@ -266,6 +271,7 @@ include_graphics(fig17)
 fig18 = "figs/module_ora_gsea_tf/endothel.reactome.ora.ma.mi_copy.png"
 include_graphics(fig18)
 ```
+  
 **Figure 18. Reactome gene set overrepresentation analysis.** For this purpose, each module is split in a major (M) and minor (m) submodule, containing genes with positive and negative weights, respectively. ICA components are reoriented so that the heavier tail of each component is positive. In this way the submodule with positive weights is always larger submodule, hence called major (and conversly for minor submodules).  
   
   
@@ -273,6 +279,7 @@ include_graphics(fig18)
 fig19 = "figs/module_ora_gsea_tf/blood.reactome.ora.ma.mi_copy.png"
 include_graphics(fig19)
 ```
+  
 **Figure 19. Reactome gene set overrepresentation analysis.** For this purpose, each module is split in a major (M) and minor (m) submodule, containing genes with positive and negative weights, respectively. ICA components are reoriented so that the heavier tail of each component is positive. In this way the submodule with positive weights is always larger submodule, hence called major (and conversly for minor submodules).  
   
   
@@ -283,7 +290,7 @@ include_graphics(fig19)
   
 ***  
   
-**To do:** DESCRIBE SPEC SCORE CONTEXT, DERIVATION AND USES  
+**To do:** *desrcibe Spec score context, derivation and uses*    
   
 ***  
   
@@ -292,7 +299,7 @@ $$ P(y|x)=\frac{P(x|y)P(y)}{\sum_y{P(x|y)P(y)}} $$
 $$ I(x)=1+\sum_y{P(y|x)log_nP(y|x)} $$
 $$ Spec(y)=\sum_x{P(x|y)I(x)} $$
   
- Spec score is calculated for each gene in each cell type in the sample, where *y* represents a cell type, *x* is the level of gene expression (usually binned expression) and *n* is total number of cell types in the sample. Effectively Spec score measures the average amount of information about cell's identity provided by a measurement of the gene's expression level in cell type y (Birnbaum and Kussell, 2011).  
+Spec score is calculated for each gene in each cell type in the sample, where *y* represents a cell type, *x* is the level of gene expression (usually binned expression) and *n* is total number of cell types in the sample. Effectively Spec score measures the average amount of information about cell's identity provided by a measurement of the gene's expression level in cell type y (Birnbaum and Kussell, 2011).  
    
   
 ```{r, fig.show="hold", fig.ncol=2, out.width="40%", fig.align="default", echo=FALSE}
@@ -309,6 +316,7 @@ knitr::include_graphics(fig20)
 fig21 = "figs/spec_heatmap_bin5_copy.png"
 include_graphics(fig21)
 ```
+  
 **Figure 21. Heatmap showing distribution of cell type--gene Spec scores** and efficient clustering and reconstitution of cell type hierarchies that replicates known cell type relationships.  
   
   
